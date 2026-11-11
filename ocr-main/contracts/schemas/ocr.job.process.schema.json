@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paperless-ngx.local/schemas/ocr.job.process.schema.json",
+  "title": "OcrJobProcessCommand",
+  "description": "Comando encolado internamente por la API para que Ocr.Worker procese el documento.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "messageId",
+    "correlationId",
+    "jobId",
+    "storageKey",
+    "mimeType",
+    "language",
+    "mode",
+    "deskew",
+    "rotatePages",
+    "requestedAt"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1,
+      "description": "Versión del esquema del mensaje."
+    },
+    "messageId": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identificador único del mensaje."
+    },
+    "correlationId": {
+      "type": "string",
+      "description": "Identificador de correlación."
+    },
+    "jobId": {
+      "type": "string",
+      "format": "uuid",
+      "description": "ID del trabajo creado en la base de datos de OCR."
+    },
+    "clientReference": {
+      "type": ["string", "null"],
+      "description": "Referencia opaca del cliente."
+    },
+    "storageKey": {
+      "type": "string",
+      "description": "Ubicación o clave del archivo subido en el almacenamiento temporal."
+    },
+    "mimeType": {
+      "type": "string",
+      "description": "Tipo MIME detectado o reportado del documento."
+    },
+    "language": {
+      "type": "string",
+      "description": "Idiomas para Tesseract (ej. spa+eng)."
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["skip", "redo", "force"],
+      "description": "Estrategia de OCR."
+    },
+    "deskew": {
+      "type": "boolean",
+      "description": "Activar corrección de inclinación."
+    },
+    "rotatePages": {
+      "type": "boolean",
+      "description": "Activar corrección de orientación."
+    },
+    "requestedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp de la solicitud."
+    }
+  },
+  "additionalProperties": false
+}

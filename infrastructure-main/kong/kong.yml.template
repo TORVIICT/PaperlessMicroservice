@@ -1,0 +1,64 @@
+_format_version: "3.0"
+_transform: true
+
+# Plantilla declarativa de Kong. `scripts/start.ps1` reemplaza los marcadores
+# de origen con los valores de `.env` y escribe `kong/kong.yml`.
+# Kong DB-less no interpola variables de entorno dentro del archivo declarativo.
+
+plugins:
+  - name: correlation-id
+    config:
+      header_name: X-Correlation-ID
+      generator: uuid#counter
+      echo_downstream: true
+
+  - name: cors
+    route: ocr-api
+    config:
+      origins:
+        - "{{FRONTEND_ORIGIN}}"
+      methods:
+        - GET
+        - POST
+        - DELETE
+        - OPTIONS
+      headers:
+        - Accept
+        - Content-Type
+        - Authorization
+        - X-Correlation-ID
+      exposed_headers:
+        - Location
+        - X-Correlation-ID
+      credentials: false
+      max_age: 3600
+
+  - name: request-size-limiting
+    route: ocr-api
+    config:
+      allowed_payload_size: 55
+      size_unit: megabytes
+      # Exigir Content-Length rompería GET y DELETE sin cuerpo. Nginx sigue
+      # aplicando client_max_body_size como respaldo.
+      require_content_length: false
+
+services:
+  - name: ocr-api
+    url: http://ocr-api:8080/api/v1
+    connect_timeout: 3000
+    read_timeout: 10000
+    # La carga de hasta 55 MB debe poder completarse sin cortar la conexión.
+    write_timeout: 60000
+    retries: 0
+    routes:
+      - name: ocr-api
+        paths:
+          - /api/ocr/v1
+        protocols:
+          - http
+        methods:
+          - GET
+          - POST
+          - DELETE
+          - OPTIONS
+        strip_path: true

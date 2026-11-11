@@ -1,0 +1,47 @@
+# Build results and binaries
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+[Tt]est[Rr]esults/
+
+# Visual Studio / Visual Studio Code / JetBrains Rider
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+project.lock.json
+project.assets.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Test Coverage and Profiling
+*.coverage
+*.coveragexml
+coverage.json
+*.trx
+*.DotSettings.user
+
+**/bin/
+**/obj/
+**/TestResults/
+**/coverage/
+**/logs/
+**/logs/
+**/logs/
+**/logs/
+

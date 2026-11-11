@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "messageId": "b6f1c0de-0000-4000-8000-000000000004",
+  "correlationId": "d3a2a3b4-0000-4000-8000-000000000002",
+  "documentId": 1234,
+  "errorCode": "ENCRYPTED_PDF",
+  "errorMessage": "The PDF is password protected",
+  "retryable": false,
+  "attempts": 1
+}

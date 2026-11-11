@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="918ad9f5-70f3-49a5-b84f-cd9963944f61" name="@linux 2026-10-31 16:42:58" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-31T16:42:58.7240529-05:00" queuing="2026-10-31T16:42:58.7240530-05:00" start="2026-10-31T16:42:57.5891712-05:00" finish="2026-10-31T16:43:42.1450189-05:00" />
+  <TestSettings name="default" id="24455807-77db-4947-b0ef-2d6e41ed0d6e">
+    <Deployment runDeploymentRoot="_linux_2026-10-31_16_42_58" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2f16f112-312b-488e-bb1d-0a950ca9ad37" testId="8c459ee1-8009-717f-239e-ce8f025b28c6" testName="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.GetDocumentStatus_ReturnsCorrectMappingViaDocumentId" computerName="linux" duration="00:00:00.0528832" startTime="2026-10-31T16:42:58.5560350-05:00" endTime="2026-10-31T16:42:58.5907422-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f16f112-312b-488e-bb1d-0a950ca9ad37" />
+    <UnitTestResult executionId="4c93c5f4-ba66-40de-b6c4-bd7c6536d54e" testId="89f6c053-dfd6-d4e7-bab0-c54294e7eb8a" testName="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.ErrorState_PersistsThroughAllIdentityMappings" computerName="linux" duration="00:00:00.4074894" startTime="2026-10-31T16:42:58.1163334-05:00" endTime="2026-10-31T16:42:58.5357800-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c93c5f4-ba66-40de-b6c4-bd7c6536d54e" />
+    <UnitTestResult executionId="890823e6-3a59-47ca-a0af-62127f4cb3f1" testId="2a923d02-3ce9-70b8-6277-2faddb96091d" testName="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentText_CompletedDocument_ReturnsTextAndPageCount" computerName="linux" duration="00:00:00.0650512" startTime="2026-10-31T16:42:58.5560791-05:00" endTime="2026-10-31T16:42:58.6029057-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="890823e6-3a59-47ca-a0af-62127f4cb3f1" />
+    <UnitTestResult executionId="c8cdad1c-076a-45e6-a9d1-eab3e52f818f" testId="b2926739-78dd-7504-76ea-a27f0eff6f82" testName="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentText_NotCompleted_Returns409" computerName="linux" duration="00:00:00.0667818" startTime="2026-10-31T16:42:58.6617520-05:00" endTime="2026-10-31T16:42:58.6700627-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8cdad1c-076a-45e6-a9d1-eab3e52f818f" />
+    <UnitTestResult executionId="8e90aa96-57b6-46b6-bd5b-fbf3db681cd6" testId="b35da4ef-00f7-75e2-436b-036bd9028acd" testName="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentStatus_FailedDocument_ReturnsFailedStatus" computerName="linux" duration="00:00:00.0387200" startTime="2026-10-31T16:42:58.7172145-05:00" endTime="2026-10-31T16:42:58.7559733-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e90aa96-57b6-46b6-bd5b-fbf3db681cd6" />
+    <UnitTestResult executionId="7c5821cf-49f8-4c20-8a0e-b0f3d277ed16" testId="7eea7cce-0ec1-09d2-bde7-60a437320374" testName="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentStatus_CompletedDocument_ReturnsCompletedStatus" computerName="linux" duration="00:00:00.0466189" startTime="2026-10-31T16:42:58.6703768-05:00" endTime="2026-10-31T16:42:58.7169554-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c5821cf-49f8-4c20-8a0e-b0f3d277ed16" />
+    <UnitTestResult executionId="d8502cd8-f22c-4b49-bc78-825e5741b72a" testId="03f94fef-e48c-29a3-23a7-925586f502b9" testName="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_CompletedDocumentWithArchive_StreamsPdf" computerName="linux" duration="00:00:00.0472186" startTime="2026-10-31T16:42:58.5662828-05:00" endTime="2026-10-31T16:42:58.5975310-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8502cd8-f22c-4b49-bc78-825e5741b72a" />
+    <UnitTestResult executionId="43c494db-2cae-446b-b96c-5bc11685b779" testId="50f01ce8-1948-b463-04ac-3683a81e5978" testName="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.Submit_Returns202WithQueuedStatus" computerName="linux" duration="00:00:00.4128017" startTime="2026-10-31T16:42:58.1150264-05:00" endTime="2026-10-31T16:42:58.5437511-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43c494db-2cae-446b-b96c-5bc11685b779" />
+    <UnitTestResult executionId="c735538e-831d-46f5-b908-26907f1f109b" testId="d51d10e5-3f4e-49be-4b83-506984e59b3d" testName="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_RetriesWithJitter_ThenSucceeds" computerName="linux" duration="00:00:20.2465892" startTime="2026-10-31T16:42:59.7074454-05:00" endTime="2026-10-31T16:43:19.9633110-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c735538e-831d-46f5-b908-26907f1f109b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure: Strings differ
+           ↓ (pos 0)
+Expected: "completed"
+Actual:   "failed"
+           ↑ (pos 0)</Message>
+          <StackTrace>   at OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_RetriesWithJitter_ThenSucceeds() in /home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/Integration/OrchestrationIntegrationTests.cs:line 280
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6a475572-7e97-4362-a2ab-94de4f5bf622" testId="cf405e81-86a3-ea36-ff74-6244476b75d0" testName="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Completed_FullFlow_WithBackgroundService" computerName="linux" duration="00:00:00.0423817" startTime="2026-10-31T16:42:58.7348236-05:00" endTime="2026-10-31T16:42:58.7799254-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a475572-7e97-4362-a2ab-94de4f5bf622">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure: Strings differ
+           ↓ (pos 0)
+Expected: "queued"
+Actual:   "completed"
+           ↑ (pos 0)</Message>
+          <StackTrace>   at OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Completed_FullFlow_WithBackgroundService() in /home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/Integration/OrchestrationIntegrationTests.cs:line 176
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d017b137-ca79-4b52-8403-de10f15756e8" testId="6a9a99e3-d400-9958-1e57-8266c9cb1531" testName="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.CancelledRequest_AbortsPolling" computerName="linux" duration="00:00:00.6150638" startTime="2026-10-31T16:42:58.1163552-05:00" endTime="2026-10-31T16:42:58.7320735-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d017b137-ca79-4b52-8403-de10f15756e8" />
+    <UnitTestResult executionId="0ad60c2c-2574-490f-86b7-b9c887d398b0" testId="3c891014-ae9c-03b1-0275-64567979a676" testName="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_OcrReturns404_Returns409" computerName="linux" duration="00:00:00.4290578" startTime="2026-10-31T16:42:58.1162707-05:00" endTime="2026-10-31T16:42:58.5561625-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ad60c2c-2574-490f-86b7-b9c887d398b0" />
+    <UnitTestResult executionId="0e9ee2ea-5ceb-46f3-9cf4-a3b79a126c21" testId="eb221b78-6f69-60fe-2bd6-2000b68b500f" testName="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_MaxRetriesExceeded_ReturnsFailed" computerName="linux" duration="00:00:22.0503612" startTime="2026-10-31T16:43:19.9710289-05:00" endTime="2026-10-31T16:43:42.0186639-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e9ee2ea-5ceb-46f3-9cf4-a3b79a126c21">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Equal() Failure: Strings differ
+           ↓ (pos 0)
+Expected: "SERVICE_UNAVAILABLE"
+Actual:   "OCR_PROCESSING_FAILED"
+           ↑ (pos 0)</Message>
+          <StackTrace>   at OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_MaxRetriesExceeded_ReturnsFailed() in /home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/Integration/OrchestrationIntegrationTests.cs:line 331
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7364999b-b9bf-462f-8509-8bbad8d338f8" testId="83844928-b39d-3984-48f2-dfd73a83a0c8" testName="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.Upload_CreatesDocumentWithAllThreeIdentities" computerName="linux" duration="00:00:00.0390509" startTime="2026-10-31T16:42:58.6680118-05:00" endTime="2026-10-31T16:42:58.7073498-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7364999b-b9bf-462f-8509-8bbad8d338f8" />
+    <UnitTestResult executionId="1b722f54-b384-4ed2-89f4-b29810420f06" testId="58145a7d-c2a2-85be-2f12-1cc387142260" testName="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_DocumentNotFound_Returns404" computerName="linux" duration="00:00:00.0311656" startTime="2026-10-31T16:42:58.6626753-05:00" endTime="2026-10-31T16:42:58.6946743-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b722f54-b384-4ed2-89f4-b29810420f06" />
+    <UnitTestResult executionId="f96ffeb4-5319-444c-b4bd-c8aa53450233" testId="250d8920-fcbf-053f-75a4-8854f04138bb" testName="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.StatusUpdates_PersistThroughAllIdentityMappings" computerName="linux" duration="00:00:00.0331375" startTime="2026-10-31T16:42:58.6623162-05:00" endTime="2026-10-31T16:42:58.6676678-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f96ffeb4-5319-444c-b4bd-c8aa53450233" />
+    <UnitTestResult executionId="f82efda9-ef3d-4b26-9168-7a8f1f2f8c7b" testId="2a6d5092-fdef-6422-f559-e0616a82a554" testName="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.OnlyClientReferenceCrossesToOcr" computerName="linux" duration="00:00:00.0431686" startTime="2026-10-31T16:42:58.5910240-05:00" endTime="2026-10-31T16:42:58.6618394-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f82efda9-ef3d-4b26-9168-7a8f1f2f8c7b" />
+    <UnitTestResult executionId="581c46fa-b96b-43e1-9267-ee3b81d76439" testId="ffb75912-65c1-a20e-1611-a0c715ee62a7" testName="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Failed_TerminalFailure" computerName="linux" duration="00:00:00.9274843" startTime="2026-10-31T16:42:58.7866869-05:00" endTime="2026-10-31T16:42:59.7071457-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="581c46fa-b96b-43e1-9267-ee3b81d76439" />
+    <UnitTestResult executionId="6853b439-3f36-4a21-83cb-c0255ff68b5e" testId="fed14be2-b242-61c0-58aa-9b73f5f94aef" testName="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_DocumentNotCompleted_Returns409" computerName="linux" duration="00:00:00.0644146" startTime="2026-10-31T16:42:58.5978206-05:00" endTime="2026-10-31T16:42:58.6624488-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6853b439-3f36-4a21-83cb-c0255ff68b5e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_OcrReturns404_Returns409" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="3c891014-ae9c-03b1-0275-64567979a676">
+      <Execution id="0ad60c2c-2574-490f-86b7-b9c887d398b0" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests" name="GetArchive_OcrReturns404_Returns409" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentText_CompletedDocument_ReturnsTextAndPageCount" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="2a923d02-3ce9-70b8-6277-2faddb96091d">
+      <Execution id="890823e6-3a59-47ca-a0af-62127f4cb3f1" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests" name="GetDocumentText_CompletedDocument_ReturnsTextAndPageCount" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentStatus_CompletedDocument_ReturnsCompletedStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="7eea7cce-0ec1-09d2-bde7-60a437320374">
+      <Execution id="7c5821cf-49f8-4c20-8a0e-b0f3d277ed16" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests" name="GetDocumentStatus_CompletedDocument_ReturnsCompletedStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.OnlyClientReferenceCrossesToOcr" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="2a6d5092-fdef-6422-f559-e0616a82a554">
+      <Execution id="f82efda9-ef3d-4b26-9168-7a8f1f2f8c7b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests" name="OnlyClientReferenceCrossesToOcr" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.Upload_CreatesDocumentWithAllThreeIdentities" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="83844928-b39d-3984-48f2-dfd73a83a0c8">
+      <Execution id="7364999b-b9bf-462f-8509-8bbad8d338f8" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests" name="Upload_CreatesDocumentWithAllThreeIdentities" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Failed_TerminalFailure" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="ffb75912-65c1-a20e-1611-a0c715ee62a7">
+      <Execution id="581c46fa-b96b-43e1-9267-ee3b81d76439" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.OrchestrationIntegrationTests" name="Submit_Poll_Failed_TerminalFailure" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_MaxRetriesExceeded_ReturnsFailed" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="eb221b78-6f69-60fe-2bd6-2000b68b500f">
+      <Execution id="0e9ee2ea-5ceb-46f3-9cf4-a3b79a126c21" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.OrchestrationIntegrationTests" name="TransientFailure_MaxRetriesExceeded_ReturnsFailed" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_DocumentNotCompleted_Returns409" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="fed14be2-b242-61c0-58aa-9b73f5f94aef">
+      <Execution id="6853b439-3f36-4a21-83cb-c0255ff68b5e" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests" name="GetArchive_DocumentNotCompleted_Returns409" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.ErrorState_PersistsThroughAllIdentityMappings" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="89f6c053-dfd6-d4e7-bab0-c54294e7eb8a">
+      <Execution id="4c93c5f4-ba66-40de-b6c4-bd7c6536d54e" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests" name="ErrorState_PersistsThroughAllIdentityMappings" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.GetDocumentStatus_ReturnsCorrectMappingViaDocumentId" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="8c459ee1-8009-717f-239e-ce8f025b28c6">
+      <Execution id="2f16f112-312b-488e-bb1d-0a950ca9ad37" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests" name="GetDocumentStatus_ReturnsCorrectMappingViaDocumentId" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_RetriesWithJitter_ThenSucceeds" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="d51d10e5-3f4e-49be-4b83-506984e59b3d">
+      <Execution id="c735538e-831d-46f5-b908-26907f1f109b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.OrchestrationIntegrationTests" name="TransientFailure_RetriesWithJitter_ThenSucceeds" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.Submit_Returns202WithQueuedStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="50f01ce8-1948-b463-04ac-3683a81e5978">
+      <Execution id="43c494db-2cae-446b-b96c-5bc11685b779" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests" name="Submit_Returns202WithQueuedStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.StatusUpdates_PersistThroughAllIdentityMappings" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="250d8920-fcbf-053f-75a4-8854f04138bb">
+      <Execution id="f96ffeb4-5319-444c-b4bd-c8aa53450233" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests" name="StatusUpdates_PersistThroughAllIdentityMappings" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.CancelledRequest_AbortsPolling" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="6a9a99e3-d400-9958-1e57-8266c9cb1531">
+      <Execution id="d017b137-ca79-4b52-8403-de10f15756e8" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.OrchestrationIntegrationTests" name="CancelledRequest_AbortsPolling" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_DocumentNotFound_Returns404" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="58145a7d-c2a2-85be-2f12-1cc387142260">
+      <Execution id="1b722f54-b384-4ed2-89f4-b29810420f06" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests" name="GetArchive_DocumentNotFound_Returns404" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentText_NotCompleted_Returns409" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="b2926739-78dd-7504-76ea-a27f0eff6f82">
+      <Execution id="c8cdad1c-076a-45e6-a9d1-eab3e52f818f" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests" name="GetDocumentText_NotCompleted_Returns409" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentStatus_FailedDocument_ReturnsFailedStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="b35da4ef-00f7-75e2-436b-036bd9028acd">
+      <Execution id="8e90aa96-57b6-46b6-bd5b-fbf3db681cd6" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests" name="GetDocumentStatus_FailedDocument_ReturnsFailedStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Completed_FullFlow_WithBackgroundService" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="cf405e81-86a3-ea36-ff74-6244476b75d0">
+      <Execution id="6a475572-7e97-4362-a2ab-94de4f5bf622" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.OrchestrationIntegrationTests" name="Submit_Poll_Completed_FullFlow_WithBackgroundService" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_CompletedDocumentWithArchive_StreamsPdf" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="03f94fef-e48c-29a3-23a7-925586f502b9">
+      <Execution id="d8502cd8-f22c-4b49-bc78-825e5741b72a" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests" name="GetArchive_CompletedDocumentWithArchive_StreamsPdf" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="8c459ee1-8009-717f-239e-ce8f025b28c6" executionId="2f16f112-312b-488e-bb1d-0a950ca9ad37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89f6c053-dfd6-d4e7-bab0-c54294e7eb8a" executionId="4c93c5f4-ba66-40de-b6c4-bd7c6536d54e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a923d02-3ce9-70b8-6277-2faddb96091d" executionId="890823e6-3a59-47ca-a0af-62127f4cb3f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2926739-78dd-7504-76ea-a27f0eff6f82" executionId="c8cdad1c-076a-45e6-a9d1-eab3e52f818f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b35da4ef-00f7-75e2-436b-036bd9028acd" executionId="8e90aa96-57b6-46b6-bd5b-fbf3db681cd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7eea7cce-0ec1-09d2-bde7-60a437320374" executionId="7c5821cf-49f8-4c20-8a0e-b0f3d277ed16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03f94fef-e48c-29a3-23a7-925586f502b9" executionId="d8502cd8-f22c-4b49-bc78-825e5741b72a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50f01ce8-1948-b463-04ac-3683a81e5978" executionId="43c494db-2cae-446b-b96c-5bc11685b779" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d51d10e5-3f4e-49be-4b83-506984e59b3d" executionId="c735538e-831d-46f5-b908-26907f1f109b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf405e81-86a3-ea36-ff74-6244476b75d0" executionId="6a475572-7e97-4362-a2ab-94de4f5bf622" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a9a99e3-d400-9958-1e57-8266c9cb1531" executionId="d017b137-ca79-4b52-8403-de10f15756e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c891014-ae9c-03b1-0275-64567979a676" executionId="0ad60c2c-2574-490f-86b7-b9c887d398b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb221b78-6f69-60fe-2bd6-2000b68b500f" executionId="0e9ee2ea-5ceb-46f3-9cf4-a3b79a126c21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83844928-b39d-3984-48f2-dfd73a83a0c8" executionId="7364999b-b9bf-462f-8509-8bbad8d338f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58145a7d-c2a2-85be-2f12-1cc387142260" executionId="1b722f54-b384-4ed2-89f4-b29810420f06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="250d8920-fcbf-053f-75a4-8854f04138bb" executionId="f96ffeb4-5319-444c-b4bd-c8aa53450233" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a6d5092-fdef-6422-f559-e0616a82a554" executionId="f82efda9-ef3d-4b26-9168-7a8f1f2f8c7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffb75912-65c1-a20e-1611-a0c715ee62a7" executionId="581c46fa-b96b-43e1-9267-ee3b81d76439" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fed14be2-b242-61c0-58aa-9b73f5f94aef" executionId="6853b439-3f36-4a21-83cb-c0255ff68b5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="19" executed="19" passed="16" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.9)
+[xUnit.net 00:00:00.07]   Discovering: OcrAcl.Tests
+[xUnit.net 00:00:00.14]   Discovered:  OcrAcl.Tests
+[xUnit.net 00:00:00.16]   Starting:    OcrAcl.Tests
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+fail: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Unexpected error polling job 70c7928e-d96b-4d7a-85b1-f4033ed2eae3
+      System.InvalidOperationException: Job not found
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlInternalAsync(String url, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 171
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlAsync(String pollingUrl, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 92
+         at OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService.PollJobAsync(Guid jobId, String clientReference, Guid documentId, CancellationToken stoppingToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/OcrPollingBackgroundService.cs:line 103
+fail: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Polling failed for document e85a8006-7492-4389-8e09-f91300923116: OCR_PROCESSING_FAILED - Polling error: Job not found
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Job e3957cfa-9965-4ecc-a98c-b821b33d879f completed successfully for document 36efa65c-8b68-46f8-bda9-f4e860254ff7
+[xUnit.net 00:00:00.85]       Assert.Equal() Failure: Strings differ
+[xUnit.net 00:00:00.85]                  ↓ (pos 0)
+[xUnit.net 00:00:00.85]       Expected: "queued"
+[xUnit.net 00:00:00.85]       Actual:   "completed"
+[xUnit.net 00:00:00.85]                  ↑ (pos 0)
+[xUnit.net 00:00:00.85]       Stack Trace:
+[xUnit.net 00:00:00.85]         /home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/Integration/OrchestrationIntegrationTests.cs(176,0): at OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Completed_FullFlow_WithBackgroundService()
+[xUnit.net 00:00:00.85]         --- End of stack trace from previous location ---
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Job 520d7b86-2b18-4e5b-870f-5e0e0f08ab4d failed for document 1b16fd70-763a-4e02-9d25-384a2072035d: ENGINE_ERROR - OCR engine crashed
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+fail: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Unexpected error polling job 60338775-b513-494a-af68-f7a0c3c315c8
+      System.InvalidOperationException: Job status check failed: ServiceUnavailable, body: 
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlInternalAsync(String url, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 180
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlAsync(String pollingUrl, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 92
+         at OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService.PollJobAsync(Guid jobId, String clientReference, Guid documentId, CancellationToken stoppingToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/OcrPollingBackgroundService.cs:line 103
+fail: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Polling failed for document e7e53c93-476a-4b61-a4ae-7e2b1fffe966: OCR_PROCESSING_FAILED - Polling error: Job status check failed: ServiceUnavailable, body: 
+[xUnit.net 00:00:22.03]       Assert.Equal() Failure: Strings differ
+[xUnit.net 00:00:22.03]                  ↓ (pos 0)
+[xUnit.net 00:00:22.03]       Expected: "completed"
+[xUnit.net 00:00:22.03]       Actual:   "failed"
+[xUnit.net 00:00:22.03]                  ↑ (pos 0)
+[xUnit.net 00:00:22.03]       Stack Trace:
+[xUnit.net 00:00:22.04]         /home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/Integration/OrchestrationIntegrationTests.cs(280,0): at OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_RetriesWithJitter_ThenSucceeds()
+[xUnit.net 00:00:22.04]         --- End of stack trace from previous location ---
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+fail: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Unexpected error polling job dc296a65-d7ff-4c6a-9adb-b61495958969
+      System.InvalidOperationException: Job status check failed: ServiceUnavailable, body: 
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlInternalAsync(String url, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 180
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlAsync(String pollingUrl, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 92
+         at OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService.PollJobAsync(Guid jobId, String clientReference, Guid documentId, CancellationToken stoppingToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/OcrPollingBackgroundService.cs:line 103
+fail: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Polling failed for document 4bbf1114-00fc-492e-a2df-b2eb12fc6c31: OCR_PROCESSING_FAILED - Polling error: Job status check failed: ServiceUnavailable, body: 
+[xUnit.net 00:00:44.09]       Assert.Equal() Failure: Strings differ
+[xUnit.net 00:00:44.09]                  ↓ (pos 0)
+[xUnit.net 00:00:44.09]       Expected: "SERVICE_UNAVAILABLE"
+[xUnit.net 00:00:44.09]       Actual:   "OCR_PROCESSING_FAILED"
+[xUnit.net 00:00:44.09]                  ↑ (pos 0)
+[xUnit.net 00:00:44.09]       Stack Trace:
+[xUnit.net 00:00:44.09]         /home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/Integration/OrchestrationIntegrationTests.cs(331,0): at OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_MaxRetriesExceeded_ReturnsFailed()
+[xUnit.net 00:00:44.09]         --- End of stack trace from previous location ---
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+[xUnit.net 00:00:44.10]   Finished:    OcrAcl.Tests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="linux" outcome="Error" timestamp="2026-10-31T16:42:58.7827833-05:00">
+        <Text>[xUnit.net 00:00:00.85]     OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Completed_FullFlow_WithBackgroundService [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="linux" outcome="Error" timestamp="2026-10-31T16:43:19.9642482-05:00">
+        <Text>[xUnit.net 00:00:22.03]     OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_RetriesWithJitter_ThenSucceeds [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="linux" outcome="Error" timestamp="2026-10-31T16:43:42.0193143-05:00">
+        <Text>[xUnit.net 00:00:44.09]     OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_MaxRetriesExceeded_ReturnsFailed [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

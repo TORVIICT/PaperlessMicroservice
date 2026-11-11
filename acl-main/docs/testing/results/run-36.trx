@@ -1,0 +1,1123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c1781d7d-d0f7-476b-826f-5bb2fd4168ab" name="@linux 2026-11-01 01:42:29" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-01T01:42:29.5944806-05:00" queuing="2026-11-01T01:42:29.5944806-05:00" start="2026-11-01T01:42:28.9306695-05:00" finish="2026-11-01T01:43:05.9286562-05:00" />
+  <TestSettings name="default" id="258e7e2b-8e83-4d53-a9b0-11ee698f5fcd">
+    <Deployment runDeploymentRoot="_linux_2026-11-01_01_42_29" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d9433955-96e1-483a-8ddb-4a00c8e6c7eb" testId="630d1124-70a1-c7a3-bd34-45c3778aab93" testName="OcrAcl.Tests.Unit.OcrStatusTests.OcrStatus_Processing_IsNonTerminal" computerName="linux" duration="00:00:00.0004854" startTime="2026-11-01T01:42:29.5503432-05:00" endTime="2026-11-01T01:42:29.5505824-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9433955-96e1-483a-8ddb-4a00c8e6c7eb" />
+    <UnitTestResult executionId="198579dd-97f9-4bd7-a6b7-5c6696cd235c" testId="672c3da9-074a-8938-999f-b7e10b9dd725" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_EmptyFileContent_ThrowsArgumentException(fileContent: MemoryStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = True, Capacity = 0, ··· }, expectedMessage: &quot;File content is required.&quot;)" computerName="linux" duration="00:00:00.0002391" startTime="2026-11-01T01:42:29.5715051-05:00" endTime="2026-11-01T01:42:29.5715757-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="198579dd-97f9-4bd7-a6b7-5c6696cd235c" />
+    <UnitTestResult executionId="906df0b4-d655-4e4c-afb9-0e0908dde7d5" testId="6ce94e8d-3a80-e2bf-6df3-406990013f64" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_ReturnsFailedJob_WhenOcrClientReturnsFailed" computerName="linux" duration="00:00:00.0011442" startTime="2026-11-01T01:42:29.5745005-05:00" endTime="2026-11-01T01:42:29.5751378-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="906df0b4-d655-4e4c-afb9-0e0908dde7d5" />
+    <UnitTestResult executionId="8acc2d11-1578-487a-84ed-a38411c76ba8" testId="24586ee8-e24d-88c7-521c-182a61f94543" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_AllowedContentType_DoesNotThrow(contentType: &quot;image/jpeg&quot;)" computerName="linux" duration="00:00:00.0091244" startTime="2026-11-01T01:42:29.4693383-05:00" endTime="2026-11-01T01:42:29.5398962-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8acc2d11-1578-487a-84ed-a38411c76ba8" />
+    <UnitTestResult executionId="2adafd31-8b04-488e-86f1-8af3183746ed" testId="89f6c053-dfd6-d4e7-bab0-c54294e7eb8a" testName="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.ErrorState_PersistsThroughAllIdentityMappings" computerName="linux" duration="00:00:00.4038784" startTime="2026-11-01T01:42:29.5622684-05:00" endTime="2026-11-01T01:42:29.9008894-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2adafd31-8b04-488e-86f1-8af3183746ed" />
+    <UnitTestResult executionId="e7f867b3-05d3-43ec-a586-7e354de28957" testId="8c459ee1-8009-717f-239e-ce8f025b28c6" testName="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.GetDocumentStatus_ReturnsCorrectMappingViaDocumentId" computerName="linux" duration="00:00:00.0599488" startTime="2026-11-01T01:42:29.9033826-05:00" endTime="2026-11-01T01:42:29.9637884-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7f867b3-05d3-43ec-a586-7e354de28957" />
+    <UnitTestResult executionId="d2c36a1b-5c5a-4926-8bb3-895cf5f4667a" testId="9bd46040-311b-2ed1-3842-320996a15b13" testName="OcrAcl.Tests.Unit.OcrStatusTests.ToFeStatus_MapsCorrectly(status: Completed, expectedFeStatus: &quot;completed&quot;)" computerName="linux" duration="00:00:00.0002356" startTime="2026-11-01T01:42:29.5387318-05:00" endTime="2026-11-01T01:42:29.5391847-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2c36a1b-5c5a-4926-8bb3-895cf5f4667a" />
+    <UnitTestResult executionId="463a570a-08b5-46ff-b9e1-585c5d2159d3" testId="b2926739-78dd-7504-76ea-a27f0eff6f82" testName="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentText_NotCompleted_Returns409" computerName="linux" duration="00:00:00.0507121" startTime="2026-11-01T01:42:29.9797657-05:00" endTime="2026-11-01T01:42:30.0325611-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="463a570a-08b5-46ff-b9e1-585c5d2159d3" />
+    <UnitTestResult executionId="53ea6a38-43d7-4bec-bfac-f40b4e98db3e" testId="6bf8b1c5-2e08-a444-9548-063d9c183439" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_GeneratesUniqueClientReference_PerCall" computerName="linux" duration="00:00:00.0062460" startTime="2026-11-01T01:42:29.5416299-05:00" endTime="2026-11-01T01:42:29.5504238-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53ea6a38-43d7-4bec-bfac-f40b4e98db3e" />
+    <UnitTestResult executionId="d3b779d5-51e0-4f7c-b47c-0c6afc19bc12" testId="0376b832-a2b9-98a4-5fd2-661f7814637d" testName="OcrAcl.Tests.Unit.PollingPolicyTests.GetPollDelay_Attempts11Plus_Returns2Seconds" computerName="linux" duration="00:00:00.0001449" startTime="2026-11-01T01:42:42.0354478-05:00" endTime="2026-11-01T01:42:42.0355166-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3b779d5-51e0-4f7c-b47c-0c6afc19bc12" />
+    <UnitTestResult executionId="71fefbf0-0487-4e53-860d-a897094abbb2" testId="b7246eb6-3f52-d9ba-6679-e1f2f5baa373" testName="OcrAcl.Tests.Unit.PollingPolicyTests.GetJitteredDelay_ReturnsValueWithinRange" computerName="linux" duration="00:00:00.0008561" startTime="2026-11-01T01:42:42.0358945-05:00" endTime="2026-11-01T01:42:42.0359518-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71fefbf0-0487-4e53-860d-a897094abbb2" />
+    <UnitTestResult executionId="4f01db55-f4d9-4e3a-8b14-46793b6df851" testId="7eea7cce-0ec1-09d2-bde7-60a437320374" testName="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentStatus_CompletedDocument_ReturnsCompletedStatus" computerName="linux" duration="00:00:00.0703483" startTime="2026-11-01T01:42:30.0340321-05:00" endTime="2026-11-01T01:42:30.1031544-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f01db55-f4d9-4e3a-8b14-46793b6df851" />
+    <UnitTestResult executionId="4f6b2720-e370-4cc7-8ba1-3b06ea784b65" testId="6344b95a-0776-51c9-6eea-a743c69bcee2" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobByUrlAsync_AcceptsAbsoluteUrl" computerName="linux" duration="00:00:00.0167025" startTime="2026-11-01T01:42:29.5769421-05:00" endTime="2026-11-01T01:42:29.5770244-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f6b2720-e370-4cc7-8ba1-3b06ea784b65" />
+    <UnitTestResult executionId="a7135e97-c283-43bb-8b91-58b57dfd48c5" testId="275df74b-9065-9ca3-d6ab-674ae3174b50" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobAsync_404Response_ThrowsJobNotFound" computerName="linux" duration="00:00:00.0009217" startTime="2026-11-01T01:42:29.5858075-05:00" endTime="2026-11-01T01:42:29.5862789-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7135e97-c283-43bb-8b91-58b57dfd48c5" />
+    <UnitTestResult executionId="e6007285-714d-4883-8673-b5b2d99883c7" testId="e372e8e6-cf63-5e0b-d62d-9b28aa8a100b" testName="OcrAcl.Tests.Unit.OcrStatusTests.ToFeStatus_MapsCorrectly(status: Pending, expectedFeStatus: &quot;queued&quot;)" computerName="linux" duration="00:00:00.0006507" startTime="2026-11-01T01:42:29.5383679-05:00" endTime="2026-11-01T01:42:29.5385268-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6007285-714d-4883-8673-b5b2d99883c7" />
+    <UnitTestResult executionId="4b514da4-1ac7-4cb6-ac42-6da61aa84fbc" testId="69fa620b-c6c6-e899-693e-b09569b70e36" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_415Response_ThrowsUnsupportedFileType" computerName="linux" duration="00:00:00.0013643" startTime="2026-11-01T01:42:29.5875778-05:00" endTime="2026-11-01T01:42:29.5876788-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b514da4-1ac7-4cb6-ac42-6da61aa84fbc" />
+    <UnitTestResult executionId="217b011e-b68f-44cc-be1d-0c2b6901eba9" testId="517da1c4-4724-0ed0-15b8-b9e4e76d9a4c" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobAsync_CompletedJob_ReturnsJobWithResult" computerName="linux" duration="00:00:00.0014559" startTime="2026-11-01T01:42:29.5779799-05:00" endTime="2026-11-01T01:42:29.5780428-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="217b011e-b68f-44cc-be1d-0c2b6901eba9" />
+    <UnitTestResult executionId="49f9aa43-83cd-4a8a-bf0e-338a00cafc4e" testId="673bb449-cd97-24d1-598c-e6078e0bab3d" testName="OcrAcl.Tests.Unit.OcrJobTests.OcrJob_WithFailedStatus_HasErrorAndNullResult" computerName="linux" duration="00:00:00.0003925" startTime="2026-11-01T01:42:29.5749470-05:00" endTime="2026-11-01T01:42:29.5750085-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49f9aa43-83cd-4a8a-bf0e-338a00cafc4e" />
+    <UnitTestResult executionId="958a352e-cf9d-4b2f-8263-f0b7cab78070" testId="fed14be2-b242-61c0-58aa-9b73f5f94aef" testName="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_DocumentNotCompleted_Returns409" computerName="linux" duration="00:00:00.0611883" startTime="2026-11-01T01:42:29.9820924-05:00" endTime="2026-11-01T01:42:30.0450844-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="958a352e-cf9d-4b2f-8263-f0b7cab78070" />
+    <UnitTestResult executionId="209fcbb4-f196-436c-91db-9ea9bd01a25d" testId="03f94fef-e48c-29a3-23a7-925586f502b9" testName="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_CompletedDocumentWithArchive_StreamsPdf" computerName="linux" duration="00:00:00.0504940" startTime="2026-11-01T01:42:29.9306662-05:00" endTime="2026-11-01T01:42:29.9818326-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="209fcbb4-f196-436c-91db-9ea9bd01a25d" />
+    <UnitTestResult executionId="077d77de-806f-48d6-9a4d-184eacae7ac2" testId="3493434f-bd1b-09a6-9b92-f9ebebcba291" testName="OcrAcl.Tests.Unit.PollingPolicyTests.GetPollDelay_Attempts1To3_Returns500Ms" computerName="linux" duration="00:00:00.0002914" startTime="2026-11-01T01:42:33.5363131-05:00" endTime="2026-11-01T01:42:33.5364417-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="077d77de-806f-48d6-9a4d-184eacae7ac2" />
+    <UnitTestResult executionId="a43ef7b6-335f-4279-b0f0-0fd39609a8de" testId="32cf4e1e-6853-2265-68f4-0444aeb31dbb" testName="OcrAcl.Tests.Unit.MonolithTranslatorTests.SelectUploadFile_Throws_WhenHasArchivedPdfIsTrue" computerName="linux" duration="00:00:00.0044634" startTime="2026-11-01T01:42:29.4680237-05:00" endTime="2026-11-01T01:42:29.4843352-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a43ef7b6-335f-4279-b0f0-0fd39609a8de" />
+    <UnitTestResult executionId="011daf6d-16bb-4894-995d-320ba1a1258d" testId="0aa3f599-953e-8112-5208-5336ed888f2c" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_ReturnsCompletedJob_WhenOcrClientReturnsCompleted" computerName="linux" duration="00:00:00.0012227" startTime="2026-11-01T01:42:29.5742761-05:00" endTime="2026-11-01T01:42:29.5743395-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="011daf6d-16bb-4894-995d-320ba1a1258d" />
+    <UnitTestResult executionId="a636c56a-6b5c-404b-a758-a0d86cecbd57" testId="dc9a3fd6-1ff2-7e8c-5cb9-9849e06e5e0f" testName="OcrAcl.Tests.Unit.PollingPolicyTests.WaitPollDelayAsync_UsesCorrectDelayPerAttempt" computerName="linux" duration="00:00:04.0476710" startTime="2026-11-01T01:42:29.4693899-05:00" endTime="2026-11-01T01:42:33.5258651-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a636c56a-6b5c-404b-a758-a0d86cecbd57" />
+    <UnitTestResult executionId="1d0679de-8032-4ba2-8218-ed3b1bd55535" testId="8c665d03-cb51-92f4-0f07-7cea67ab4221" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_ValidRequest_ReturnsJobWithJobIdAndProcessingStatus" computerName="linux" duration="00:00:00.0014215" startTime="2026-11-01T01:42:29.5939836-05:00" endTime="2026-11-01T01:42:29.5952253-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d0679de-8032-4ba2-8218-ed3b1bd55535" />
+    <UnitTestResult executionId="db6d3f75-5db9-4f52-88f3-8a7789b72666" testId="4dde200f-9f7a-b05a-dc0a-b211b87b2909" testName="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationSourceFiles_DoNotContainForbiddenUsings" computerName="linux" duration="00:00:00.0101022" startTime="2026-11-01T01:42:29.5520583-05:00" endTime="2026-11-01T01:42:29.5652171-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db6d3f75-5db9-4f52-88f3-8a7789b72666">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Empty() Failure: Collection was not empty
+Collection: ["src/OcrAcl.Api/Application/Services/DeliverResultT"···]</Message>
+          <StackTrace>   at OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationSourceFiles_DoNotContainForbiddenUsings() in /home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/Architecture/ApplicationLayerTests.cs:line 74
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c910ee8-beb9-4fc5-ac4b-4aa6342e6a3b" testId="907c5dd0-6bcd-c25f-5b75-162cd8466c94" testName="OcrAcl.Tests.Unit.PollingPolicyTests.Constants_HaveExpectedValues" computerName="linux" duration="00:00:00.0002113" startTime="2026-11-01T01:42:42.0361037-05:00" endTime="2026-11-01T01:42:42.0361612-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c910ee8-beb9-4fc5-ac4b-4aa6342e6a3b" />
+    <UnitTestResult executionId="1687a82c-b409-4acf-afc0-69912dd7676b" testId="2a6d5092-fdef-6422-f559-e0616a82a554" testName="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.OnlyClientReferenceCrossesToOcr" computerName="linux" duration="00:00:00.0337996" startTime="2026-11-01T01:42:29.9641091-05:00" endTime="2026-11-01T01:42:29.9977810-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1687a82c-b409-4acf-afc0-69912dd7676b" />
+    <UnitTestResult executionId="73913fe6-0816-407c-88d4-8cf0430114ca" testId="bd1113b9-247e-a388-69cf-ead2faada4ee" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Processing, to: Completed, expected: True)" computerName="linux" duration="00:00:00.0000046" startTime="2026-11-01T01:42:29.5437819-05:00" endTime="2026-11-01T01:42:29.5438818-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73913fe6-0816-407c-88d4-8cf0430114ca" />
+    <UnitTestResult executionId="841aa7d0-e6af-4137-87b2-45bdaae7e51b" testId="0311fc97-76e4-c207-0375-41e339e51531" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidFileName_ThrowsArgumentException(fileName: &quot;   &quot;, expectedMessage: &quot;File name is required.&quot;)" computerName="linux" duration="00:00:00.0007007" startTime="2026-11-01T01:42:29.5717825-05:00" endTime="2026-11-01T01:42:29.5718506-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="841aa7d0-e6af-4137-87b2-45bdaae7e51b" />
+    <UnitTestResult executionId="1ac8cc3b-e3fc-45b0-89ae-4a00af6d035c" testId="672c3da9-074a-8938-999f-b7e10b9dd725" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_EmptyFileContent_ThrowsArgumentException(fileContent: NullStream { CanRead = True, CanSeek = True, CanTimeout = False, CanWrite = True, Length = 0, ··· }, expectedMessage: &quot;File content is required.&quot;)" computerName="linux" duration="00:00:00.0009090" startTime="2026-11-01T01:42:29.5645039-05:00" endTime="2026-11-01T01:42:29.5714090-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ac8cc3b-e3fc-45b0-89ae-4a00af6d035c" />
+    <UnitTestResult executionId="9e747cbf-e8a0-4e53-b0b4-e33b0e44357a" testId="527f7f50-e78e-ffba-1b8e-d314faad22ac" testName="OcrAcl.Tests.Architecture.ApplicationLayerTests.ScanHelper_DetectsForbiddenUsingInSyntheticInput" computerName="linux" duration="00:00:00.0072409" startTime="2026-11-01T01:42:29.4954814-05:00" endTime="2026-11-01T01:42:29.5480817-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e747cbf-e8a0-4e53-b0b4-e33b0e44357a" />
+    <UnitTestResult executionId="c42fc7b5-a0db-4ad8-b3e3-1e827ca025dc" testId="94b5ce4f-48b6-cb3b-f696-4b5963c0b053" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobAsync_CancellationToken_Propagated" computerName="linux" duration="00:00:00.0025247" startTime="2026-11-01T01:42:29.5878914-05:00" endTime="2026-11-01T01:42:29.5901846-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c42fc7b5-a0db-4ad8-b3e3-1e827ca025dc" />
+    <UnitTestResult executionId="d554c169-61c8-4b60-b453-75f0d0f1c2f4" testId="c3c17fbf-2a26-acec-f780-7b88928fac4a" testName="OcrAcl.Tests.Unit.OcrJobTests.OcrJob_WithProcessingStatus_HasNullCompletedAtAndNullResult" computerName="linux" duration="00:00:00.0002985" startTime="2026-11-01T01:42:29.5747262-05:00" endTime="2026-11-01T01:42:29.5747952-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d554c169-61c8-4b60-b453-75f0d0f1c2f4" />
+    <UnitTestResult executionId="ee672856-667c-4d73-a78e-67c9c0687d5b" testId="c65a3bf5-02a7-9d93-628a-c710f5ebe498" testName="OcrAcl.Tests.Unit.PollingPolicyTests.CreateGlobalTimeoutToken_CancelsAfterGlobalTimeout" computerName="linux" duration="00:00:00.0004142" startTime="2026-11-01T01:42:42.0356781-05:00" endTime="2026-11-01T01:42:42.0357402-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee672856-667c-4d73-a78e-67c9c0687d5b" />
+    <UnitTestResult executionId="c0566fe7-06f8-4da3-bfdd-ec5760c1550a" testId="f448a666-099d-c4b9-74fb-0a420bcc5137" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_ValidInput_ReturnsJobWithGeneratedClientReference" computerName="linux" duration="00:00:00.0034148" startTime="2026-11-01T01:42:29.5752822-05:00" endTime="2026-11-01T01:42:29.5753437-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0566fe7-06f8-4da3-bfdd-ec5760c1550a" />
+    <UnitTestResult executionId="1eff8194-7726-4f6c-aec3-cc084ee9e562" testId="b17b3958-0461-f895-162a-bb0f7f6bff00" testName="OcrAcl.Tests.Unit.PollingPolicyTests.GetPollDelay_InvalidAttempt_Throws" computerName="linux" duration="00:00:00.0003955" startTime="2026-11-01T01:42:42.0352342-05:00" endTime="2026-11-01T01:42:42.0352956-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1eff8194-7726-4f6c-aec3-cc084ee9e562" />
+    <UnitTestResult executionId="857a3c27-bb02-4e5e-97de-31e0ae64c9a7" testId="6a9a99e3-d400-9958-1e57-8266c9cb1531" testName="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.CancelledRequest_AbortsPolling" computerName="linux" duration="00:00:00.6176293" startTime="2026-11-01T01:42:29.5622995-05:00" endTime="2026-11-01T01:42:30.1121450-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="857a3c27-bb02-4e5e-97de-31e0ae64c9a7" />
+    <UnitTestResult executionId="f2080d6e-49d7-475a-94c4-406f495816ef" testId="41c8ef89-7916-61ec-4d75-9e842b0ee38c" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobAsync_FailedJob_ReturnsJobWithError" computerName="linux" duration="00:00:00.0035119" startTime="2026-11-01T01:42:29.5772088-05:00" endTime="2026-11-01T01:42:29.5772676-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2080d6e-49d7-475a-94c4-406f495816ef" />
+    <UnitTestResult executionId="d847675f-f825-4158-9620-109ef0cdc0ec" testId="09597142-8c2c-171e-2724-21fbe283a562" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;Failed&quot;, expected: Failed)" computerName="linux" duration="00:00:00.0000032" startTime="2026-11-01T01:42:29.5351093-05:00" endTime="2026-11-01T01:42:29.5351485-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d847675f-f825-4158-9620-109ef0cdc0ec" />
+    <UnitTestResult executionId="bbc1576b-7633-4993-b213-d0dc1e0222d2" testId="955b1558-0566-34a5-80ad-329778e17ad9" testName="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToUploadRequest_PreservesFileContentAndMetadata" computerName="linux" duration="00:00:00.0004221" startTime="2026-11-01T01:42:29.5480141-05:00" endTime="2026-11-01T01:42:29.5483335-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbc1576b-7633-4993-b213-d0dc1e0222d2" />
+    <UnitTestResult executionId="43f98271-5785-448c-91d5-afd7b91695c1" testId="003c7e18-83c1-2083-305d-629e568c84ca" testName="OcrAcl.Tests.Unit.OcrJobTests.OcrJob_CanBeCreated_WithAllProperties" computerName="linux" duration="00:00:00.0060208" startTime="2026-11-01T01:42:29.5728221-05:00" endTime="2026-11-01T01:42:29.5745637-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43f98271-5785-448c-91d5-afd7b91695c1" />
+    <UnitTestResult executionId="a16c1497-31ad-4c66-ac4a-3f577196b17c" testId="9f235c17-ad09-cca1-efc4-08e22ef6b2de" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_AllowedContentType_DoesNotThrow(contentType: &quot;application/pdf&quot;)" computerName="linux" duration="00:00:00.0000215" startTime="2026-11-01T01:42:29.5413897-05:00" endTime="2026-11-01T01:42:29.5414574-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a16c1497-31ad-4c66-ac4a-3f577196b17c" />
+    <UnitTestResult executionId="bb599560-dd21-4d64-b37f-4f86180a5b13" testId="cfc917da-aa4c-337f-b594-85f568b3c7b5" testName="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationTypes_DoNotReferenceForbiddenNamespaces" computerName="linux" duration="00:00:00.0058587" startTime="2026-11-01T01:42:29.5713279-05:00" endTime="2026-11-01T01:42:29.5724582-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb599560-dd21-4d64-b37f-4f86180a5b13" />
+    <UnitTestResult executionId="b27ffe54-134c-4add-b448-2cb505979357" testId="ab81a367-e25b-b897-95e5-43724f5d50c6" testName="OcrAcl.Tests.Unit.MonolithTranslatorTests.SelectUploadFile_ResetsStreamPosition" computerName="linux" duration="00:00:00.0038220" startTime="2026-11-01T01:42:29.5391128-05:00" endTime="2026-11-01T01:42:29.5416973-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b27ffe54-134c-4add-b448-2cb505979357" />
+    <UnitTestResult executionId="125cc44d-e981-48e1-a66b-a1d05e8993e1" testId="6125c01c-4295-5ecd-721e-93e20e1555d5" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_400Response_ReadsErrorBodyAndThrowsInvalidFile" computerName="linux" duration="00:00:00.0055370" startTime="2026-11-01T01:42:29.5756249-05:00" endTime="2026-11-01T01:42:29.5757009-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="125cc44d-e981-48e1-a66b-a1d05e8993e1" />
+    <UnitTestResult executionId="22aaeba1-c855-4967-ab8f-a84c41d2deb2" testId="856a2b19-4cd9-0882-094a-8811121fe6ad" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;FAILED&quot;, expected: Failed)" computerName="linux" duration="00:00:00.0003323" startTime="2026-11-01T01:42:29.4944879-05:00" endTime="2026-11-01T01:42:29.4955561-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22aaeba1-c855-4967-ab8f-a84c41d2deb2" />
+    <UnitTestResult executionId="f2285640-38ad-462f-8405-30e5a76fe28b" testId="aeacfdb3-1e5d-cda1-4297-13b18cb5389a" testName="OcrAcl.Tests.Unit.OcrStatusTests.OcrStatus_Completed_IsTerminal" computerName="linux" duration="00:00:00.0001162" startTime="2026-11-01T01:42:29.5529362-05:00" endTime="2026-11-01T01:42:29.5530634-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2285640-38ad-462f-8405-30e5a76fe28b" />
+    <UnitTestResult executionId="289f1dc7-aba9-409d-9397-60638a06ffba" testId="58145a7d-c2a2-85be-2f12-1cc387142260" testName="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_DocumentNotFound_Returns404" computerName="linux" duration="00:00:00.0518772" startTime="2026-11-01T01:42:30.0453829-05:00" endTime="2026-11-01T01:42:30.0973677-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="289f1dc7-aba9-409d-9397-60638a06ffba" />
+    <UnitTestResult executionId="0f3b5338-ea2b-455e-b87f-2b2e1e7c5139" testId="0930141d-1b66-a7b1-ed0d-0c5c5a1851b3" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.DownloadArchiveAsync_ReturnsStream" computerName="linux" duration="00:00:00.0010807" startTime="2026-11-01T01:42:29.5969916-05:00" endTime="2026-11-01T01:42:29.5978881-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f3b5338-ea2b-455e-b87f-2b2e1e7c5139" />
+    <UnitTestResult executionId="2f46db26-ee47-4e7c-ae74-c6946231c370" testId="9ae880de-383e-8472-110a-92469ba63219" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;pending&quot;, expected: Pending)" computerName="linux" duration="00:00:00.0000028" startTime="2026-11-01T01:42:29.5346158-05:00" endTime="2026-11-01T01:42:29.5346553-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f46db26-ee47-4e7c-ae74-c6946231c370" />
+    <UnitTestResult executionId="8145a561-6f51-4fb2-9d10-55c72bbd8fd0" testId="d6efc514-0f7a-113c-8853-af627fd34a7e" testName="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationNamespaces_MatchFolderStructure" computerName="linux" duration="00:00:00.0013194" startTime="2026-11-01T01:42:29.5482619-05:00" endTime="2026-11-01T01:42:29.5508692-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8145a561-6f51-4fb2-9d10-55c72bbd8fd0" />
+    <UnitTestResult executionId="dc1f2d4a-5242-4c9c-82e5-4b5fafca67c7" testId="64d2f1cd-faf1-6787-5dcf-bcd377f2b643" testName="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToUploadRequest_UsesTitle_WhenProvided" computerName="linux" duration="00:00:00.0037574" startTime="2026-11-01T01:42:29.5497408-05:00" endTime="2026-11-01T01:42:29.5536320-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc1f2d4a-5242-4c9c-82e5-4b5fafca67c7" />
+    <UnitTestResult executionId="c7deb7c3-305f-4bfd-8326-3e9b7fb81d78" testId="7dd96596-de4a-1048-456d-c0ad62f8bcc2" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_SendsCorrectMultipartFields" computerName="linux" duration="00:00:00.0117251" startTime="2026-11-01T01:42:29.5781958-05:00" endTime="2026-11-01T01:42:29.5837722-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7deb7c3-305f-4bfd-8326-3e9b7fb81d78" />
+    <UnitTestResult executionId="a9913956-16e3-4458-a4df-d06b690ec6f7" testId="d4cec1eb-4b59-8368-70bd-acf89287fa87" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidMode_ThrowsArgumentException(mode: &quot;   &quot;, expectedMessage: &quot;Mode is required.&quot;)" computerName="linux" duration="00:00:00.0009198" startTime="2026-11-01T01:42:29.5610997-05:00" endTime="2026-11-01T01:42:29.5623644-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9913956-16e3-4458-a4df-d06b690ec6f7" />
+    <UnitTestResult executionId="99e0504e-a69e-4590-bfcf-c1fa9d1e5fc7" testId="224d952c-9347-1edb-e70b-254355aac836" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_UnsupportedContentType_ThrowsArgumentException(contentType: &quot;application/msword&quot;, expectedMessage: &quot;Unsupported content type&quot;)" computerName="linux" duration="00:00:00.0031516" startTime="2026-11-01T01:42:29.5508198-05:00" endTime="2026-11-01T01:42:29.5549281-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99e0504e-a69e-4590-bfcf-c1fa9d1e5fc7" />
+    <UnitTestResult executionId="2b26fa62-8a21-4fc3-ab17-924f06f9adfc" testId="56d77dd9-8a8f-aa54-4670-0b6e33ce2f08" testName="OcrAcl.Tests.Unit.PollingPolicyTests.WaitInitialAsync_CompletesAfterInitialWait" computerName="linux" duration="00:00:08.4969370" startTime="2026-11-01T01:42:33.5367411-05:00" endTime="2026-11-01T01:42:42.0346472-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b26fa62-8a21-4fc3-ab17-924f06f9adfc" />
+    <UnitTestResult executionId="4c32e67c-c5b3-449d-92c1-7fef31158008" testId="f8052483-a6d8-bdf1-6de3-70dd23aea448" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Completed, to: Processing, expected: False)" computerName="linux" duration="00:00:00.0000044" startTime="2026-11-01T01:42:29.5445916-05:00" endTime="2026-11-01T01:42:29.5446545-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c32e67c-c5b3-449d-92c1-7fef31158008" />
+    <UnitTestResult executionId="8b9706ba-003a-4a89-97f0-726c11fa4914" testId="7e28d3c7-093a-4f06-e44d-71719b52d6e6" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Completed, to: Failed, expected: False)" computerName="linux" duration="00:00:00.0003781" startTime="2026-11-01T01:42:29.5420302-05:00" endTime="2026-11-01T01:42:29.5421425-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b9706ba-003a-4a89-97f0-726c11fa4914" />
+    <UnitTestResult executionId="2a9456f8-d160-4586-ad96-39c9c3f083d3" testId="eb221b78-6f69-60fe-2bd6-2000b68b500f" testName="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_MaxRetriesExceeded_ReturnsFailed" computerName="linux" duration="00:00:23.5358249" startTime="2026-11-01T01:42:42.2909309-05:00" endTime="2026-11-01T01:43:05.8272592-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a9456f8-d160-4586-ad96-39c9c3f083d3" />
+    <UnitTestResult executionId="a407346f-bff4-468f-9636-e7902cea4b2b" testId="cf488743-4fe0-e78b-a5e2-6f7eee9f30f5" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Pending, to: Pending, expected: False)" computerName="linux" duration="00:00:00.0000043" startTime="2026-11-01T01:42:29.5442179-05:00" endTime="2026-11-01T01:42:29.5442768-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a407346f-bff4-468f-9636-e7902cea4b2b" />
+    <UnitTestResult executionId="3aaae5a2-e1e9-4aa9-bf18-0122b39355a7" testId="f5991ebf-95dc-feb6-4b76-8ff4ff7e44bd" testName="OcrAcl.Tests.Unit.PollingPolicyTests.CreateGlobalTimeoutToken_LinksExternalToken" computerName="linux" duration="00:00:00.0004687" startTime="2026-11-01T01:42:42.0349781-05:00" endTime="2026-11-01T01:42:42.0350593-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3aaae5a2-e1e9-4aa9-bf18-0122b39355a7" />
+    <UnitTestResult executionId="9f599984-e1ad-45c1-b103-939e82fc660b" testId="c556374d-693a-2312-0c27-ef030e2b27f2" testName="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationHasAtLeastOneTypeAndFile" computerName="linux" duration="00:00:00.0066183" startTime="2026-11-01T01:42:29.4694499-05:00" endTime="2026-11-01T01:42:29.4942540-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f599984-e1ad-45c1-b103-939e82fc660b" />
+    <UnitTestResult executionId="d47226c3-69d6-4871-808e-8aaacb69563a" testId="3c891014-ae9c-03b1-0275-64567979a676" testName="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_OcrReturns404_Returns409" computerName="linux" duration="00:00:00.4598462" startTime="2026-11-01T01:42:29.4694315-05:00" endTime="2026-11-01T01:42:29.9303705-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d47226c3-69d6-4871-808e-8aaacb69563a" />
+    <UnitTestResult executionId="8ae48d22-16ca-4eac-97d7-f2a65c5e15de" testId="a7dd92c9-72ff-bce1-9187-e5379ca63f33" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.DownloadArchiveAsync_404_Throws" computerName="linux" duration="00:00:00.0019679" startTime="2026-11-01T01:42:29.5917936-05:00" endTime="2026-11-01T01:42:29.5937086-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ae48d22-16ca-4eac-97d7-f2a65c5e15de" />
+    <UnitTestResult executionId="0a456f8f-cffd-499f-9556-5605889845ac" testId="a7c254fa-90c0-5dc3-a496-435e15790caa" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_UnsupportedContentType_ThrowsArgumentException(contentType: &quot;&quot;, expectedMessage: &quot;Unsupported content type&quot;)" computerName="linux" duration="00:00:00.0002826" startTime="2026-11-01T01:42:29.5551472-05:00" endTime="2026-11-01T01:42:29.5552289-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a456f8f-cffd-499f-9556-5605889845ac" />
+    <UnitTestResult executionId="dbbf731d-f6e8-447c-9d27-66f63ed7f30f" testId="73f42829-c27e-3d69-c4c7-8bf8645a3e5e" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_ValidInput_CallsOcrClientWithCorrectParameters" computerName="linux" duration="00:00:00.0085631" startTime="2026-11-01T01:42:29.5722277-05:00" endTime="2026-11-01T01:42:29.5740831-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbbf731d-f6e8-447c-9d27-66f63ed7f30f" />
+    <UnitTestResult executionId="a37e443b-0e89-4b18-945c-05762cd726ad" testId="e1f46404-99be-5173-5165-6e41e2f0bf11" testName="OcrAcl.Tests.Unit.OcrStatusTests.OcrStatus_Failed_IsTerminal" computerName="linux" duration="00:00:00.0000724" startTime="2026-11-01T01:42:29.5526435-05:00" endTime="2026-11-01T01:42:29.5527187-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a37e443b-0e89-4b18-945c-05762cd726ad" />
+    <UnitTestResult executionId="334ee6cd-3d44-4522-8456-05cfaeba1a24" testId="94783820-3697-97b8-9e5d-a6554c53b15a" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Failed, to: Failed, expected: False)" computerName="linux" duration="00:00:00.0036616" startTime="2026-11-01T01:42:29.5398191-05:00" endTime="2026-11-01T01:42:29.5417333-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="334ee6cd-3d44-4522-8456-05cfaeba1a24" />
+    <UnitTestResult executionId="d5cda3a5-0081-481d-8121-1e80da50828f" testId="e0553ede-43d8-c651-1eb1-4297993ee4bc" testName="OcrAcl.Tests.Unit.MonolithTranslatorTests.SelectUploadFile_ReturnsOriginalFile_WhenNoArchivedPdf" computerName="linux" duration="00:00:00.0005146" startTime="2026-11-01T01:42:29.5477599-05:00" endTime="2026-11-01T01:42:29.5478323-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5cda3a5-0081-481d-8121-1e80da50828f" />
+    <UnitTestResult executionId="36db4cd3-2d21-4de1-85f3-3ad0ab1683a6" testId="e6c9c92c-1890-beb6-9913-9c6c521dc70c" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Pending, to: Failed, expected: False)" computerName="linux" duration="00:00:00.0000039" startTime="2026-11-01T01:42:29.5467435-05:00" endTime="2026-11-01T01:42:29.5468508-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36db4cd3-2d21-4de1-85f3-3ad0ab1683a6" />
+    <UnitTestResult executionId="d1a416c1-713c-49f1-ace0-345fbf9d88fa" testId="2a923d02-3ce9-70b8-6277-2faddb96091d" testName="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentText_CompletedDocument_ReturnsTextAndPageCount" computerName="linux" duration="00:00:00.0538959" startTime="2026-11-01T01:42:29.9255206-05:00" endTime="2026-11-01T01:42:29.9794915-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1a416c1-713c-49f1-ace0-345fbf9d88fa" />
+    <UnitTestResult executionId="06cbe977-b148-4d1f-8479-e415bd317353" testId="3f539ce4-06ff-8f04-2e88-a034a9cdaf71" testName="OcrAcl.Tests.Unit.PollingPolicyTests.GetPollDelay_Attempts4To10_Returns1Second" computerName="linux" duration="00:00:00.0057175" startTime="2026-11-01T01:42:33.5357398-05:00" endTime="2026-11-01T01:42:33.5359384-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06cbe977-b148-4d1f-8479-e415bd317353" />
+    <UnitTestResult executionId="eeee06bd-ced0-4ba2-8f9a-07b7c92d8250" testId="705fc424-9e72-2005-2c83-adccbdc1ba61" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;completed&quot;, expected: Completed)" computerName="linux" duration="00:00:00.0000030" startTime="2026-11-01T01:42:29.5347234-05:00" endTime="2026-11-01T01:42:29.5347711-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eeee06bd-ced0-4ba2-8f9a-07b7c92d8250" />
+    <UnitTestResult executionId="ef1deb8b-6753-48b5-9e33-8af0dd98051d" testId="3f1d3e8a-0209-a229-2275-a6a359889fa9" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_UnsupportedContentType_ThrowsArgumentException(contentType: &quot;text/plain&quot;, expectedMessage: &quot;Unsupported content type&quot;)" computerName="linux" duration="00:00:00.0000358" startTime="2026-11-01T01:42:29.5605616-05:00" endTime="2026-11-01T01:42:29.5606618-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef1deb8b-6753-48b5-9e33-8af0dd98051d" />
+    <UnitTestResult executionId="cb996808-66f2-40fc-b6ef-69f37b8524d8" testId="c885f6c0-733c-0831-0f85-f71072da339e" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Failed, to: Pending, expected: False)" computerName="linux" duration="00:00:00.0000047" startTime="2026-11-01T01:42:29.5444011-05:00" endTime="2026-11-01T01:42:29.5444661-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb996808-66f2-40fc-b6ef-69f37b8524d8" />
+    <UnitTestResult executionId="2d5f7170-91f3-46d5-a6ae-eda05397e085" testId="ffb75912-65c1-a20e-1611-a0c715ee62a7" testName="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Failed_TerminalFailure" computerName="linux" duration="00:00:00.9194078" startTime="2026-11-01T01:42:30.2705310-05:00" endTime="2026-11-01T01:42:31.1830500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d5f7170-91f3-46d5-a6ae-eda05397e085" />
+    <UnitTestResult executionId="05212dfc-f5c2-4854-ba33-00e5f63a887c" testId="b2b56ebd-4d57-1f8a-20d3-001986bbc91d" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ThrowsOnUnknownToStatus" computerName="linux" duration="00:00:00.0015906" startTime="2026-11-01T01:42:29.5474924-05:00" endTime="2026-11-01T01:42:29.5498188-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05212dfc-f5c2-4854-ba33-00e5f63a887c" />
+    <UnitTestResult executionId="a74b7eb7-2695-4fe9-959b-51a3096ff34b" testId="a7116f24-1d64-a98a-1ec9-40f7e08b521e" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Failed, to: Completed, expected: False)" computerName="linux" duration="00:00:00.0000029" startTime="2026-11-01T01:42:29.5449875-05:00" endTime="2026-11-01T01:42:29.5450645-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a74b7eb7-2695-4fe9-959b-51a3096ff34b" />
+    <UnitTestResult executionId="4906eecb-942f-4a49-8280-e6bc27e9fbcb" testId="d51d10e5-3f4e-49be-4b83-506984e59b3d" testName="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_RetriesWithJitter_ThenSucceeds" computerName="linux" duration="00:00:11.0985047" startTime="2026-11-01T01:42:31.1862322-05:00" endTime="2026-11-01T01:42:42.2906535-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4906eecb-942f-4a49-8280-e6bc27e9fbcb" />
+    <UnitTestResult executionId="fce1c3a3-c56e-43e7-9887-f1ce8f7495a9" testId="c12caadf-3ad3-d6ec-e1c1-651c856b2536" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;PROCESSING&quot;, expected: Processing)" computerName="linux" duration="00:00:00.0000036" startTime="2026-11-01T01:42:29.5343466-05:00" endTime="2026-11-01T01:42:29.5344049-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fce1c3a3-c56e-43e7-9887-f1ce8f7495a9" />
+    <UnitTestResult executionId="9f64a143-fddc-4943-929d-8ea9c1342c97" testId="f0dc97ff-c548-1918-71f2-e64e2f69b592" testName="OcrAcl.Tests.Unit.OcrStatusTests.OcrStatus_Pending_IsNonTerminal" computerName="linux" duration="00:00:00.0000886" startTime="2026-11-01T01:42:29.5509831-05:00" endTime="2026-11-01T01:42:29.5521499-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f64a143-fddc-4943-929d-8ea9c1342c97" />
+    <UnitTestResult executionId="87e3def8-20aa-456e-bc15-b055e8393fa5" testId="9c038d6c-3a54-5daa-c4ba-aba632916566" testName="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToContentPatch_ReturnsTextFromOcrResult" computerName="linux" duration="00:00:00.0010705" startTime="2026-11-01T01:42:29.4954591-05:00" endTime="2026-11-01T01:42:29.5384489-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87e3def8-20aa-456e-bc15-b055e8393fa5" />
+    <UnitTestResult executionId="9c6f9144-c5b3-4bfe-9077-a519fbcd8a8e" testId="de2a69d2-97df-2469-fd8e-b90d4922b780" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;COMPLETED&quot;, expected: Completed)" computerName="linux" duration="00:00:00.0000032" startTime="2026-11-01T01:42:29.5345016-05:00" endTime="2026-11-01T01:42:29.5345425-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c6f9144-c5b3-4bfe-9077-a519fbcd8a8e" />
+    <UnitTestResult executionId="6a633b80-4e34-455e-8ce5-9ea3119240a6" testId="710fd54e-4fca-2643-5c1d-72e3d8b2e650" testName="OcrAcl.Tests.Unit.OcrStatusTests.ToFeStatus_MapsCorrectly(status: Failed, expectedFeStatus: &quot;failed&quot;)" computerName="linux" duration="00:00:00.0000026" startTime="2026-11-01T01:42:29.5395505-05:00" endTime="2026-11-01T01:42:29.5396224-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a633b80-4e34-455e-8ce5-9ea3119240a6" />
+    <UnitTestResult executionId="a053772c-dbb2-4209-810b-5d1e0d99ce8c" testId="686d00d8-f7e6-6173-be26-ac66fdde4c7b" testName="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToContentPatch_ReturnsEmptyString_WhenTextIsNull" computerName="linux" duration="00:00:00.0001343" startTime="2026-11-01T01:42:29.5494440-05:00" endTime="2026-11-01T01:42:29.5495320-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a053772c-dbb2-4209-810b-5d1e0d99ce8c" />
+    <UnitTestResult executionId="7b623979-9a3f-4da3-8996-279ffa629274" testId="375ab223-b201-8144-6ec8-de5dd61362ea" testName="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToContentPatch_AlwaysReturnsContent_EvenWhenEmpty" computerName="linux" duration="00:00:00.0001418" startTime="2026-11-01T01:42:29.5387870-05:00" endTime="2026-11-01T01:42:29.5389041-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7b623979-9a3f-4da3-8996-279ffa629274" />
+    <UnitTestResult executionId="c170d291-29fa-4bd6-916f-edaa2f4b2dd7" testId="5cc50c88-7c75-71ce-619d-9f9966124748" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Completed, to: Completed, expected: False)" computerName="linux" duration="00:00:00.0000034" startTime="2026-11-01T01:42:29.5451999-05:00" endTime="2026-11-01T01:42:29.5452713-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c170d291-29fa-4bd6-916f-edaa2f4b2dd7" />
+    <UnitTestResult executionId="d42ddd2e-f7a2-478d-a07a-66a736c37965" testId="04921e17-a53d-afe1-c78d-db2efcbd061b" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;failed&quot;, expected: Failed)" computerName="linux" duration="00:00:00.0000040" startTime="2026-11-01T01:42:29.5380273-05:00" endTime="2026-11-01T01:42:29.5381254-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d42ddd2e-f7a2-478d-a07a-66a736c37965" />
+    <UnitTestResult executionId="c3f2487d-f592-474f-97fb-859cdf7a31f8" testId="fd86fc56-c2ca-b1e7-8ab1-5bcef9011350" testName="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToUploadRequest_DerivesTitleFromFilename_WhenNotProvided" computerName="linux" duration="00:00:00.0010130" startTime="2026-11-01T01:42:29.5420001-05:00" endTime="2026-11-01T01:42:29.5475635-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3f2487d-f592-474f-97fb-859cdf7a31f8" />
+    <UnitTestResult executionId="d31bb69e-34e1-4644-bcbc-24e5cca1591f" testId="a3bdb0d0-8de2-f3a7-81a0-43b2f6856c8c" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;PENDING&quot;, expected: Pending)" computerName="linux" duration="00:00:00.0000030" startTime="2026-11-01T01:42:29.5348470-05:00" endTime="2026-11-01T01:42:29.5348922-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d31bb69e-34e1-4644-bcbc-24e5cca1591f" />
+    <UnitTestResult executionId="ee48b7f7-59eb-4f77-8ae2-2af2741689ca" testId="0fdabc41-8b3b-ff82-7dec-e2199b8930a3" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ThrowsOnUnrecognizedStatus" computerName="linux" duration="00:00:00.0003583" startTime="2026-11-01T01:42:29.5523653-05:00" endTime="2026-11-01T01:42:29.5524371-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee48b7f7-59eb-4f77-8ae2-2af2741689ca" />
+    <UnitTestResult executionId="b471886c-1732-4b85-b517-c48a8b88daf2" testId="51ce10b6-c30d-2cf0-3d31-d6913cc3ded4" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Processing, to: Failed, expected: True)" computerName="linux" duration="00:00:00.0000041" startTime="2026-11-01T01:42:29.5472290-05:00" endTime="2026-11-01T01:42:29.5473033-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b471886c-1732-4b85-b517-c48a8b88daf2" />
+    <UnitTestResult executionId="1df79d62-7cea-45dc-a2b5-1baed023067d" testId="22564a75-0dc1-0aa9-6538-57ae183feb22" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;Pending&quot;, expected: Pending)" computerName="linux" duration="00:00:00.0000094" startTime="2026-11-01T01:42:29.5339323-05:00" endTime="2026-11-01T01:42:29.5340007-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1df79d62-7cea-45dc-a2b5-1baed023067d" />
+    <UnitTestResult executionId="4e118b6a-b9a4-4df2-9873-b507ab7ceabe" testId="e24aa728-5c39-be18-8c33-10324afb8f72" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.DownloadThumbnailAsync_404_Throws" computerName="linux" duration="00:00:00.0031189" startTime="2026-11-01T01:42:29.5777883-05:00" endTime="2026-11-01T01:42:29.5778459-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e118b6a-b9a4-4df2-9873-b507ab7ceabe" />
+    <UnitTestResult executionId="e50e0148-7ddb-4b9b-a3f0-c61b316fd851" testId="f707fac4-1abd-eb3f-e9ca-e030b0e9408e" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Processing, to: Pending, expected: False)" computerName="linux" duration="00:00:00.0000043" startTime="2026-11-01T01:42:29.5454092-05:00" endTime="2026-11-01T01:42:29.5454820-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e50e0148-7ddb-4b9b-a3f0-c61b316fd851" />
+    <UnitTestResult executionId="ae2f625e-4582-40c0-ae23-6486bc520cec" testId="80bc7377-4c08-fd12-a4de-3d493d78d22c" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;processing&quot;, expected: Processing)" computerName="linux" duration="00:00:00.0000033" startTime="2026-11-01T01:42:29.5352414-05:00" endTime="2026-11-01T01:42:29.5353090-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ae2f625e-4582-40c0-ae23-6486bc520cec" />
+    <UnitTestResult executionId="ca2ce4c9-aba3-4e57-8feb-adc9dd621775" testId="ffb23fd8-fa5f-c88b-fa81-8003e827039f" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_IncludesAcceptJsonHeader" computerName="linux" duration="00:00:00.0011957" startTime="2026-11-01T01:42:29.5840765-05:00" endTime="2026-11-01T01:42:29.5855333-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca2ce4c9-aba3-4e57-8feb-adc9dd621775" />
+    <UnitTestResult executionId="42256ce3-bf14-43e4-b3a9-76b464c08a7a" testId="b35da4ef-00f7-75e2-436b-036bd9028acd" testName="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentStatus_FailedDocument_ReturnsFailedStatus" computerName="linux" duration="00:00:00.0342958" startTime="2026-11-01T01:42:30.1034067-05:00" endTime="2026-11-01T01:42:30.1374279-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42256ce3-bf14-43e4-b3a9-76b464c08a7a" />
+    <UnitTestResult executionId="b2b770f3-7865-44d8-bbb4-dc5f7996f70d" testId="db658ceb-1542-3cf9-2c91-10eabb438a3e" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ThrowsOnUnknownFromStatus" computerName="linux" duration="00:00:00.0003449" startTime="2026-11-01T01:42:29.5532684-05:00" endTime="2026-11-01T01:42:29.5534918-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2b770f3-7865-44d8-bbb4-dc5f7996f70d" />
+    <UnitTestResult executionId="8287b43b-bbc5-47ee-ba1a-f371c309f28f" testId="51c5d0ed-f071-35d6-9862-264c783f4e93" testName="OcrAcl.Tests.Unit.OcrStatusTests.ToFeStatus_MapsCorrectly(status: Processing, expectedFeStatus: &quot;processing&quot;)" computerName="linux" duration="00:00:00.0000083" startTime="2026-11-01T01:42:29.5393408-05:00" endTime="2026-11-01T01:42:29.5394123-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8287b43b-bbc5-47ee-ba1a-f371c309f28f" />
+    <UnitTestResult executionId="749c788b-b8e5-42df-9d30-8915c4e1652c" testId="9bb8f446-0b94-4051-c1d0-50278b95535a" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Completed, to: Pending, expected: False)" computerName="linux" duration="00:00:00.0000055" startTime="2026-11-01T01:42:29.5425286-05:00" endTime="2026-11-01T01:42:29.5425975-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="749c788b-b8e5-42df-9d30-8915c4e1652c" />
+    <UnitTestResult executionId="19f8b6db-70fc-4a8a-b1b7-2616010f81d5" testId="cf405e81-86a3-ea36-ff74-6244476b75d0" testName="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Completed_FullFlow_WithBackgroundService" computerName="linux" duration="00:00:00.1499310" startTime="2026-11-01T01:42:30.1124179-05:00" endTime="2026-11-01T01:42:30.2702658-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19f8b6db-70fc-4a8a-b1b7-2616010f81d5" />
+    <UnitTestResult executionId="838eac83-c896-442e-b84d-a2c04a858721" testId="b95d9e80-ff11-33fd-180e-6910b9b86fa5" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_AllowedContentType_DoesNotThrow(contentType: &quot;image/png&quot;)" computerName="linux" duration="00:00:00.0003063" startTime="2026-11-01T01:42:29.5411541-05:00" endTime="2026-11-01T01:42:29.5412313-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="838eac83-c896-442e-b84d-a2c04a858721" />
+    <UnitTestResult executionId="c88d11d1-2c97-4f20-ad2b-b25db0cbf513" testId="a8eb799b-c5f6-d85c-9bda-5527441d010f" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobAsync_ProcessingJob_ReturnsJobWithoutResultOrError" computerName="linux" duration="00:00:00.0008877" startTime="2026-11-01T01:42:29.5981355-05:00" endTime="2026-11-01T01:42:29.5988495-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c88d11d1-2c97-4f20-ad2b-b25db0cbf513" />
+    <UnitTestResult executionId="a4f34b07-652a-4230-9169-1544868e3855" testId="c7c8ae84-7e24-9eeb-bbeb-dbea17d9011e" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidMode_ThrowsArgumentException(mode: &quot;&quot;, expectedMessage: &quot;Mode is required.&quot;)" computerName="linux" duration="00:00:00.0002372" startTime="2026-11-01T01:42:29.5625173-05:00" endTime="2026-11-01T01:42:29.5625831-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4f34b07-652a-4230-9169-1544868e3855" />
+    <UnitTestResult executionId="590c7a5c-9060-44d5-8958-67a2dc31e508" testId="eb9ec233-636e-1097-eafb-3018de21470a" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Pending, to: Completed, expected: False)" computerName="linux" duration="00:00:00.0000041" startTime="2026-11-01T01:42:29.5470220-05:00" endTime="2026-11-01T01:42:29.5470950-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="590c7a5c-9060-44d5-8958-67a2dc31e508" />
+    <UnitTestResult executionId="74844472-6291-4f8e-b1d6-1e79a6312e0e" testId="817ae92e-ff3f-8861-4159-05cc768ebbda" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Processing, to: Processing, expected: False)" computerName="linux" duration="00:00:00.0000047" startTime="2026-11-01T01:42:29.5447786-05:00" endTime="2026-11-01T01:42:29.5448532-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74844472-6291-4f8e-b1d6-1e79a6312e0e" />
+    <UnitTestResult executionId="2339e863-afeb-4572-8cef-df5b5b992ee1" testId="d8c88aaf-5bfc-3652-8acd-38ed22b082a0" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidLanguage_ThrowsArgumentException(language: &quot;&quot;, expectedMessage: &quot;Language is required.&quot;)" computerName="linux" duration="00:00:00.0002618" startTime="2026-11-01T01:42:29.5632683-05:00" endTime="2026-11-01T01:42:29.5633479-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2339e863-afeb-4572-8cef-df5b5b992ee1" />
+    <UnitTestResult executionId="bcbaf50a-b888-4cb4-b155-35b5d46a189f" testId="663bee1e-9db5-ddc9-dca7-0dfe541f6dea" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidFileName_ThrowsArgumentException(fileName: &quot;&quot;, expectedMessage: &quot;File name is required.&quot;)" computerName="linux" duration="00:00:00.0002486" startTime="2026-11-01T01:42:29.5719803-05:00" endTime="2026-11-01T01:42:29.5720479-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcbaf50a-b888-4cb4-b155-35b5d46a189f" />
+    <UnitTestResult executionId="5d98c059-169a-4e33-893f-46a0b18ad0d9" testId="1edc16e6-61e8-5412-8e16-f7e95a20046a" testName="OcrAcl.Tests.Unit.OcrStatusTests.ToFeStatus_ThrowsOnUnknownStatus" computerName="linux" duration="00:00:00.0003019" startTime="2026-11-01T01:42:29.5500441-05:00" endTime="2026-11-01T01:42:29.5501232-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d98c059-169a-4e33-893f-46a0b18ad0d9" />
+    <UnitTestResult executionId="0bbe8b33-e63d-4f15-a89a-053e26838ede" testId="1b682678-fd45-29c2-faf3-b57b636a52ac" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.DownloadThumbnailAsync_ReturnsStream" computerName="linux" duration="00:00:00.0013917" startTime="2026-11-01T01:42:29.5954716-05:00" endTime="2026-11-01T01:42:29.5967201-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0bbe8b33-e63d-4f15-a89a-053e26838ede" />
+    <UnitTestResult executionId="1abc7562-4142-4114-aa36-5fbfa02e26cf" testId="e08f1148-b108-1687-4752-5c6fad06e722" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_UnsupportedContentType_ThrowsArgumentException(contentType: &quot;image/gif&quot;, expectedMessage: &quot;Unsupported content type&quot;)" computerName="linux" duration="00:00:00.0000292" startTime="2026-11-01T01:42:29.5608609-05:00" endTime="2026-11-01T01:42:29.5609312-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1abc7562-4142-4114-aa36-5fbfa02e26cf" />
+    <UnitTestResult executionId="6b2f6a12-eba4-43bd-ad05-3b1025f7151b" testId="51dd613e-206f-a51f-dbea-77aefc3fc733" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_IncludesCorrelationIdHeader" computerName="linux" duration="00:00:00.0010860" startTime="2026-11-01T01:42:29.5775905-05:00" endTime="2026-11-01T01:42:29.5776474-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6b2f6a12-eba4-43bd-ad05-3b1025f7151b" />
+    <UnitTestResult executionId="f360f26b-d532-456b-9bf1-5c3cceacbe20" testId="d058ba63-7779-844c-4201-977b7e2cfa79" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobByUrlAsync_UsesProvidedUrl" computerName="linux" duration="00:00:00.0014016" startTime="2026-11-01T01:42:29.5990874-05:00" endTime="2026-11-01T01:42:29.6003350-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f360f26b-d532-456b-9bf1-5c3cceacbe20" />
+    <UnitTestResult executionId="de2f93b3-b302-4505-b12d-973cd56daec0" testId="dd102b17-2dd3-e392-9e81-2dfbd61b95a5" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidLanguage_ThrowsArgumentException(language: &quot;   &quot;, expectedMessage: &quot;Language is required.&quot;)" computerName="linux" duration="00:00:00.0010564" startTime="2026-11-01T01:42:29.5630567-05:00" endTime="2026-11-01T01:42:29.5631268-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="de2f93b3-b302-4505-b12d-973cd56daec0" />
+    <UnitTestResult executionId="3efef988-9805-4ee0-a79e-685305e149c2" testId="298905ec-d922-b5dd-714b-00f7c19866fd" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_CancellationToken_Propagated" computerName="linux" duration="00:00:00.0013417" startTime="2026-11-01T01:42:29.5904261-05:00" endTime="2026-11-01T01:42:29.5915868-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3efef988-9805-4ee0-a79e-685305e149c2" />
+    <UnitTestResult executionId="7d5ccec2-b9cd-435f-a095-f4cca4df02a8" testId="83844928-b39d-3984-48f2-dfd73a83a0c8" testName="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.Upload_CreatesDocumentWithAllThreeIdentities" computerName="linux" duration="00:00:00.0443210" startTime="2026-11-01T01:42:30.0635593-05:00" endTime="2026-11-01T01:42:30.1104865-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d5ccec2-b9cd-435f-a095-f4cca4df02a8" />
+    <UnitTestResult executionId="98ffb05f-81c4-4a05-8d8e-7f2f65029e59" testId="bf9867e9-25a5-3eed-18c5-c1a867defacf" testName="OcrAcl.Tests.Unit.OcrJobTests.OcrJob_WithPendingStatus_IsNonTerminal" computerName="linux" duration="00:00:00.0003637" startTime="2026-11-01T01:42:29.5723908-05:00" endTime="2026-11-01T01:42:29.5725822-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98ffb05f-81c4-4a05-8d8e-7f2f65029e59" />
+    <UnitTestResult executionId="8ea59848-3dcf-4550-94cd-e05788705291" testId="dc2e9c48-39fb-fe07-c10a-00121ae3394d" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_IncludesAuthorizationHeader" computerName="linux" duration="00:00:00.0489160" startTime="2026-11-01T01:42:29.5534181-05:00" endTime="2026-11-01T01:42:29.5754680-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ea59848-3dcf-4550-94cd-e05788705291" />
+    <UnitTestResult executionId="87595b43-9bea-4462-bf24-ced28d3dd328" testId="250d8920-fcbf-053f-75a4-8854f04138bb" testName="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.StatusUpdates_PersistThroughAllIdentityMappings" computerName="linux" duration="00:00:00.0651851" startTime="2026-11-01T01:42:29.9980487-05:00" endTime="2026-11-01T01:42:30.0632562-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87595b43-9bea-4462-bf24-ced28d3dd328" />
+    <UnitTestResult executionId="2d87aec2-4ef4-40d0-a4ae-26ba74666d1b" testId="378bba08-2367-3a0b-293e-2b012bb3fd83" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;Processing&quot;, expected: Processing)" computerName="linux" duration="00:00:00.0046318" startTime="2026-11-01T01:42:29.4694127-05:00" endTime="2026-11-01T01:42:29.4797334-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d87aec2-4ef4-40d0-a4ae-26ba74666d1b" />
+    <UnitTestResult executionId="03272cc6-0285-45c3-81db-add885612df9" testId="de7c915b-a355-3c19-0227-15736db6f768" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Pending, to: Processing, expected: True)" computerName="linux" duration="00:00:00.0000045" startTime="2026-11-01T01:42:29.5440352-05:00" endTime="2026-11-01T01:42:29.5440951-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03272cc6-0285-45c3-81db-add885612df9" />
+    <UnitTestResult executionId="d9016496-2f5e-4c99-b8e3-e0f3acb7d705" testId="b1d17826-2b31-5a91-612c-627b7371968d" testName="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Failed, to: Processing, expected: False)" computerName="linux" duration="00:00:00.0000132" startTime="2026-11-01T01:42:29.5423115-05:00" endTime="2026-11-01T01:42:29.5423857-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d9016496-2f5e-4c99-b8e3-e0f3acb7d705" />
+    <UnitTestResult executionId="31f880b8-311c-4a51-908a-9dd51c275f9a" testId="38c1e1c6-b9d3-0c68-10d4-bb8038d1cb7b" testName="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;Completed&quot;, expected: Completed)" computerName="linux" duration="00:00:00.0000033" startTime="2026-11-01T01:42:29.5349670-05:00" endTime="2026-11-01T01:42:29.5350210-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31f880b8-311c-4a51-908a-9dd51c275f9a" />
+    <UnitTestResult executionId="082e1905-65a5-404a-a861-3299cc47205a" testId="6707c95b-9482-9646-0e3e-1fd19306e33a" testName="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_MissingLocationHeader_Throws" computerName="linux" duration="00:00:00.0012075" startTime="2026-11-01T01:42:29.5774025-05:00" endTime="2026-11-01T01:42:29.5774591-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="082e1905-65a5-404a-a861-3299cc47205a" />
+    <UnitTestResult executionId="5f84d24e-8ef0-44bb-be84-7ced9fb366d9" testId="50f01ce8-1948-b463-04ac-3683a81e5978" testName="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.Submit_Returns202WithQueuedStatus" computerName="linux" duration="00:00:00.4107388" startTime="2026-11-01T01:42:29.5740094-05:00" endTime="2026-11-01T01:42:29.9252309-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f84d24e-8ef0-44bb-be84-7ced9fb366d9" />
+    <UnitTestResult executionId="d8585a82-5589-4e25-8672-705a635c153d" testId="d856c87a-20e8-eb2a-44d0-14a35d785254" testName="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_PropagatesCancellationToken" computerName="linux" duration="00:00:00.0035302" startTime="2026-11-01T01:42:29.5627733-05:00" endTime="2026-11-01T01:42:29.5628500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8585a82-5589-4e25-8672-705a635c153d" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobAsync_CancellationToken_Propagated" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="94b5ce4f-48b6-cb3b-f696-4b5963c0b053">
+      <Execution id="c42fc7b5-a0db-4ad8-b3e3-1e827ca025dc" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="GetJobAsync_CancellationToken_Propagated" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.PollingPolicyTests.Constants_HaveExpectedValues" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="907c5dd0-6bcd-c25f-5b75-162cd8466c94">
+      <Execution id="3c910ee8-beb9-4fc5-ac4b-4aa6342e6a3b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.PollingPolicyTests" name="Constants_HaveExpectedValues" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_UnsupportedContentType_ThrowsArgumentException(contentType: &quot;image/gif&quot;, expectedMessage: &quot;Unsupported content type&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="e08f1148-b108-1687-4752-5c6fad06e722">
+      <Execution id="1abc7562-4142-4114-aa36-5fbfa02e26cf" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_UnsupportedContentType_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrJobTests.OcrJob_WithPendingStatus_IsNonTerminal" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="bf9867e9-25a5-3eed-18c5-c1a867defacf">
+      <Execution id="98ffb05f-81c4-4a05-8d8e-7f2f65029e59" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrJobTests" name="OcrJob_WithPendingStatus_IsNonTerminal" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Pending, to: Failed, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="e6c9c92c-1890-beb6-9913-9c6c521dc70c">
+      <Execution id="36db4cd3-2d21-4de1-85f3-3ad0ab1683a6" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ThrowsOnUnknownFromStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="db658ceb-1542-3cf9-2c91-10eabb438a3e">
+      <Execution id="b2b770f3-7865-44d8-bbb4-dc5f7996f70d" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ThrowsOnUnknownFromStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.PollingPolicyTests.WaitInitialAsync_CompletesAfterInitialWait" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="56d77dd9-8a8f-aa54-4670-0b6e33ce2f08">
+      <Execution id="2b26fa62-8a21-4fc3-ab17-924f06f9adfc" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.PollingPolicyTests" name="WaitInitialAsync_CompletesAfterInitialWait" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;Pending&quot;, expected: Pending)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="22564a75-0dc1-0aa9-6538-57ae183feb22">
+      <Execution id="1df79d62-7cea-45dc-a2b5-1baed023067d" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrJobTests.OcrJob_WithFailedStatus_HasErrorAndNullResult" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="673bb449-cd97-24d1-598c-e6078e0bab3d">
+      <Execution id="49f9aa43-83cd-4a8a-bf0e-338a00cafc4e" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrJobTests" name="OcrJob_WithFailedStatus_HasErrorAndNullResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Completed, to: Completed, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="5cc50c88-7c75-71ce-619d-9f9966124748">
+      <Execution id="c170d291-29fa-4bd6-916f-edaa2f4b2dd7" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Pending, to: Processing, expected: True)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="de7c915b-a355-3c19-0227-15736db6f768">
+      <Execution id="03272cc6-0285-45c3-81db-add885612df9" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.ToFeStatus_MapsCorrectly(status: Processing, expectedFeStatus: &quot;processing&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="51c5d0ed-f071-35d6-9862-264c783f4e93">
+      <Execution id="8287b43b-bbc5-47ee-ba1a-f371c309f28f" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="ToFeStatus_MapsCorrectly" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrJobTests.OcrJob_WithProcessingStatus_HasNullCompletedAtAndNullResult" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="c3c17fbf-2a26-acec-f780-7b88928fac4a">
+      <Execution id="d554c169-61c8-4b60-b453-75f0d0f1c2f4" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrJobTests" name="OcrJob_WithProcessingStatus_HasNullCompletedAtAndNullResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_OcrReturns404_Returns409" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="3c891014-ae9c-03b1-0275-64567979a676">
+      <Execution id="d47226c3-69d6-4871-808e-8aaacb69563a" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests" name="GetArchive_OcrReturns404_Returns409" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_GeneratesUniqueClientReference_PerCall" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="6bf8b1c5-2e08-a444-9548-063d9c183439">
+      <Execution id="53ea6a38-43d7-4bec-bfac-f40b4e98db3e" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_GeneratesUniqueClientReference_PerCall" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToContentPatch_ReturnsTextFromOcrResult" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="9c038d6c-3a54-5daa-c4ba-aba632916566">
+      <Execution id="87e3def8-20aa-456e-bc15-b055e8393fa5" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.MonolithTranslatorTests" name="TranslateToContentPatch_ReturnsTextFromOcrResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidLanguage_ThrowsArgumentException(language: &quot;&quot;, expectedMessage: &quot;Language is required.&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="d8c88aaf-5bfc-3652-8acd-38ed22b082a0">
+      <Execution id="2339e863-afeb-4572-8cef-df5b5b992ee1" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_InvalidLanguage_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Completed_FullFlow_WithBackgroundService" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="cf405e81-86a3-ea36-ff74-6244476b75d0">
+      <Execution id="19f8b6db-70fc-4a8a-b1b7-2616010f81d5" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.OrchestrationIntegrationTests" name="Submit_Poll_Completed_FullFlow_WithBackgroundService" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidFileName_ThrowsArgumentException(fileName: &quot;   &quot;, expectedMessage: &quot;File name is required.&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="0311fc97-76e4-c207-0375-41e339e51531">
+      <Execution id="841aa7d0-e6af-4137-87b2-45bdaae7e51b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_InvalidFileName_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_AllowedContentType_DoesNotThrow(contentType: &quot;image/png&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="b95d9e80-ff11-33fd-180e-6910b9b86fa5">
+      <Execution id="838eac83-c896-442e-b84d-a2c04a858721" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_AllowedContentType_DoesNotThrow" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_CompletedDocumentWithArchive_StreamsPdf" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="03f94fef-e48c-29a3-23a7-925586f502b9">
+      <Execution id="209fcbb4-f196-436c-91db-9ea9bd01a25d" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests" name="GetArchive_CompletedDocumentWithArchive_StreamsPdf" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrJobTests.OcrJob_CanBeCreated_WithAllProperties" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="003c7e18-83c1-2083-305d-629e568c84ca">
+      <Execution id="43f98271-5785-448c-91d5-afd7b91695c1" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrJobTests" name="OcrJob_CanBeCreated_WithAllProperties" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_IncludesAcceptJsonHeader" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="ffb23fd8-fa5f-c88b-fa81-8003e827039f">
+      <Execution id="ca2ce4c9-aba3-4e57-8feb-adc9dd621775" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="SubmitAsync_IncludesAcceptJsonHeader" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;processing&quot;, expected: Processing)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="80bc7377-4c08-fd12-a4de-3d493d78d22c">
+      <Execution id="ae2f625e-4582-40c0-ae23-6486bc520cec" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;Failed&quot;, expected: Failed)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="09597142-8c2c-171e-2724-21fbe283a562">
+      <Execution id="d847675f-f825-4158-9620-109ef0cdc0ec" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.PollingPolicyTests.GetPollDelay_InvalidAttempt_Throws" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="b17b3958-0461-f895-162a-bb0f7f6bff00">
+      <Execution id="1eff8194-7726-4f6c-aec3-cc084ee9e562" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.PollingPolicyTests" name="GetPollDelay_InvalidAttempt_Throws" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentText_NotCompleted_Returns409" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="b2926739-78dd-7504-76ea-a27f0eff6f82">
+      <Execution id="463a570a-08b5-46ff-b9e1-585c5d2159d3" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests" name="GetDocumentText_NotCompleted_Returns409" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;FAILED&quot;, expected: Failed)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="856a2b19-4cd9-0882-094a-8811121fe6ad">
+      <Execution id="22aaeba1-c855-4967-ab8f-a84c41d2deb2" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_IncludesAuthorizationHeader" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="dc2e9c48-39fb-fe07-c10a-00121ae3394d">
+      <Execution id="8ea59848-3dcf-4550-94cd-e05788705291" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="SubmitAsync_IncludesAuthorizationHeader" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_UnsupportedContentType_ThrowsArgumentException(contentType: &quot;application/msword&quot;, expectedMessage: &quot;Unsupported content type&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="224d952c-9347-1edb-e70b-254355aac836">
+      <Execution id="99e0504e-a69e-4590-bfcf-c1fa9d1e5fc7" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_UnsupportedContentType_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_ReturnsCompletedJob_WhenOcrClientReturnsCompleted" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="0aa3f599-953e-8112-5208-5336ed888f2c">
+      <Execution id="011daf6d-16bb-4894-995d-320ba1a1258d" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_ReturnsCompletedJob_WhenOcrClientReturnsCompleted" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_415Response_ThrowsUnsupportedFileType" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="69fa620b-c6c6-e899-693e-b09569b70e36">
+      <Execution id="4b514da4-1ac7-4cb6-ac42-6da61aa84fbc" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="SubmitAsync_415Response_ThrowsUnsupportedFileType" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentStatus_CompletedDocument_ReturnsCompletedStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="7eea7cce-0ec1-09d2-bde7-60a437320374">
+      <Execution id="4f01db55-f4d9-4e3a-8b14-46793b6df851" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests" name="GetDocumentStatus_CompletedDocument_ReturnsCompletedStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.OcrStatus_Completed_IsTerminal" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="aeacfdb3-1e5d-cda1-4297-13b18cb5389a">
+      <Execution id="f2285640-38ad-462f-8405-30e5a76fe28b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="OcrStatus_Completed_IsTerminal" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.Upload_CreatesDocumentWithAllThreeIdentities" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="83844928-b39d-3984-48f2-dfd73a83a0c8">
+      <Execution id="7d5ccec2-b9cd-435f-a095-f4cca4df02a8" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests" name="Upload_CreatesDocumentWithAllThreeIdentities" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationNamespaces_MatchFolderStructure" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="d6efc514-0f7a-113c-8853-af627fd34a7e">
+      <Execution id="8145a561-6f51-4fb2-9d10-55c72bbd8fd0" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Architecture.ApplicationLayerTests" name="ApplicationNamespaces_MatchFolderStructure" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationTypes_DoNotReferenceForbiddenNamespaces" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="cfc917da-aa4c-337f-b594-85f568b3c7b5">
+      <Execution id="bb599560-dd21-4d64-b37f-4f86180a5b13" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Architecture.ApplicationLayerTests" name="ApplicationTypes_DoNotReferenceForbiddenNamespaces" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Completed, to: Pending, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="9bb8f446-0b94-4051-c1d0-50278b95535a">
+      <Execution id="749c788b-b8e5-42df-9d30-8915c4e1652c" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToUploadRequest_PreservesFileContentAndMetadata" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="955b1558-0566-34a5-80ad-329778e17ad9">
+      <Execution id="bbc1576b-7633-4993-b213-d0dc1e0222d2" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.MonolithTranslatorTests" name="TranslateToUploadRequest_PreservesFileContentAndMetadata" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.PollingPolicyTests.GetJitteredDelay_ReturnsValueWithinRange" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="b7246eb6-3f52-d9ba-6679-e1f2f5baa373">
+      <Execution id="71fefbf0-0487-4e53-860d-a897094abbb2" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.PollingPolicyTests" name="GetJitteredDelay_ReturnsValueWithinRange" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.PollingPolicyTests.GetPollDelay_Attempts4To10_Returns1Second" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="3f539ce4-06ff-8f04-2e88-a034a9cdaf71">
+      <Execution id="06cbe977-b148-4d1f-8479-e415bd317353" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.PollingPolicyTests" name="GetPollDelay_Attempts4To10_Returns1Second" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_CancellationToken_Propagated" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="298905ec-d922-b5dd-714b-00f7c19866fd">
+      <Execution id="3efef988-9805-4ee0-a79e-685305e149c2" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="SubmitAsync_CancellationToken_Propagated" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Failed, to: Failed, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="94783820-3697-97b8-9e5d-a6554c53b15a">
+      <Execution id="334ee6cd-3d44-4522-8456-05cfaeba1a24" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobAsync_CompletedJob_ReturnsJobWithResult" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="517da1c4-4724-0ed0-15b8-b9e4e76d9a4c">
+      <Execution id="217b011e-b68f-44cc-be1d-0c2b6901eba9" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="GetJobAsync_CompletedJob_ReturnsJobWithResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidMode_ThrowsArgumentException(mode: &quot;&quot;, expectedMessage: &quot;Mode is required.&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="c7c8ae84-7e24-9eeb-bbeb-dbea17d9011e">
+      <Execution id="a4f34b07-652a-4230-9169-1544868e3855" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_InvalidMode_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;Completed&quot;, expected: Completed)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="38c1e1c6-b9d3-0c68-10d4-bb8038d1cb7b">
+      <Execution id="31f880b8-311c-4a51-908a-9dd51c275f9a" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidMode_ThrowsArgumentException(mode: &quot;   &quot;, expectedMessage: &quot;Mode is required.&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="d4cec1eb-4b59-8368-70bd-acf89287fa87">
+      <Execution id="a9913956-16e3-4458-a4df-d06b690ec6f7" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_InvalidMode_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_MissingLocationHeader_Throws" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="6707c95b-9482-9646-0e3e-1fd19306e33a">
+      <Execution id="082e1905-65a5-404a-a861-3299cc47205a" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="SubmitAsync_MissingLocationHeader_Throws" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Completed, to: Failed, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="7e28d3c7-093a-4f06-e44d-71719b52d6e6">
+      <Execution id="8b9706ba-003a-4a89-97f0-726c11fa4914" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.DownloadThumbnailAsync_ReturnsStream" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="1b682678-fd45-29c2-faf3-b57b636a52ac">
+      <Execution id="0bbe8b33-e63d-4f15-a89a-053e26838ede" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="DownloadThumbnailAsync_ReturnsStream" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_IncludesCorrelationIdHeader" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="51dd613e-206f-a51f-dbea-77aefc3fc733">
+      <Execution id="6b2f6a12-eba4-43bd-ad05-3b1025f7151b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="SubmitAsync_IncludesCorrelationIdHeader" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Processing, to: Failed, expected: True)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="51ce10b6-c30d-2cf0-3d31-d6913cc3ded4">
+      <Execution id="b471886c-1732-4b85-b517-c48a8b88daf2" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.MonolithTranslatorTests.SelectUploadFile_ResetsStreamPosition" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="ab81a367-e25b-b897-95e5-43724f5d50c6">
+      <Execution id="b27ffe54-134c-4add-b448-2cb505979357" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.MonolithTranslatorTests" name="SelectUploadFile_ResetsStreamPosition" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Processing, to: Completed, expected: True)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="bd1113b9-247e-a388-69cf-ead2faada4ee">
+      <Execution id="73913fe6-0816-407c-88d4-8cf0430114ca" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Pending, to: Pending, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="cf488743-4fe0-e78b-a5e2-6f7eee9f30f5">
+      <Execution id="a407346f-bff4-468f-9636-e7902cea4b2b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.DownloadThumbnailAsync_404_Throws" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="e24aa728-5c39-be18-8c33-10324afb8f72">
+      <Execution id="4e118b6a-b9a4-4df2-9873-b507ab7ceabe" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="DownloadThumbnailAsync_404_Throws" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.MonolithTranslatorTests.SelectUploadFile_ReturnsOriginalFile_WhenNoArchivedPdf" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="e0553ede-43d8-c651-1eb1-4297993ee4bc">
+      <Execution id="d5cda3a5-0081-481d-8121-1e80da50828f" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.MonolithTranslatorTests" name="SelectUploadFile_ReturnsOriginalFile_WhenNoArchivedPdf" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;PROCESSING&quot;, expected: Processing)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="c12caadf-3ad3-d6ec-e1c1-651c856b2536">
+      <Execution id="fce1c3a3-c56e-43e7-9887-f1ce8f7495a9" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.ToFeStatus_MapsCorrectly(status: Pending, expectedFeStatus: &quot;queued&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="e372e8e6-cf63-5e0b-d62d-9b28aa8a100b">
+      <Execution id="e6007285-714d-4883-8673-b5b2d99883c7" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="ToFeStatus_MapsCorrectly" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;Processing&quot;, expected: Processing)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="378bba08-2367-3a0b-293e-2b012bb3fd83">
+      <Execution id="2d87aec2-4ef4-40d0-a4ae-26ba74666d1b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_RetriesWithJitter_ThenSucceeds" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="d51d10e5-3f4e-49be-4b83-506984e59b3d">
+      <Execution id="4906eecb-942f-4a49-8280-e6bc27e9fbcb" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.OrchestrationIntegrationTests" name="TransientFailure_RetriesWithJitter_ThenSucceeds" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;PENDING&quot;, expected: Pending)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="a3bdb0d0-8de2-f3a7-81a0-43b2f6856c8c">
+      <Execution id="d31bb69e-34e1-4644-bcbc-24e5cca1591f" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToContentPatch_ReturnsEmptyString_WhenTextIsNull" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="686d00d8-f7e6-6173-be26-ac66fdde4c7b">
+      <Execution id="a053772c-dbb2-4209-810b-5d1e0d99ce8c" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.MonolithTranslatorTests" name="TranslateToContentPatch_ReturnsEmptyString_WhenTextIsNull" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidFileName_ThrowsArgumentException(fileName: &quot;&quot;, expectedMessage: &quot;File name is required.&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="663bee1e-9db5-ddc9-dca7-0dfe541f6dea">
+      <Execution id="bcbaf50a-b888-4cb4-b155-35b5d46a189f" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_InvalidFileName_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_DocumentNotCompleted_Returns409" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="fed14be2-b242-61c0-58aa-9b73f5f94aef">
+      <Execution id="958a352e-cf9d-4b2f-8263-f0b7cab78070" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests" name="GetArchive_DocumentNotCompleted_Returns409" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobByUrlAsync_AcceptsAbsoluteUrl" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="6344b95a-0776-51c9-6eea-a743c69bcee2">
+      <Execution id="4f6b2720-e370-4cc7-8ba1-3b06ea784b65" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="GetJobByUrlAsync_AcceptsAbsoluteUrl" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Architecture.ApplicationLayerTests.ScanHelper_DetectsForbiddenUsingInSyntheticInput" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="527f7f50-e78e-ffba-1b8e-d314faad22ac">
+      <Execution id="9e747cbf-e8a0-4e53-b0b4-e33b0e44357a" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Architecture.ApplicationLayerTests" name="ScanHelper_DetectsForbiddenUsingInSyntheticInput" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_UnsupportedContentType_ThrowsArgumentException(contentType: &quot;text/plain&quot;, expectedMessage: &quot;Unsupported content type&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="3f1d3e8a-0209-a229-2275-a6a359889fa9">
+      <Execution id="ef1deb8b-6753-48b5-9e33-8af0dd98051d" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_UnsupportedContentType_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.OcrStatus_Processing_IsNonTerminal" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="630d1124-70a1-c7a3-bd34-45c3778aab93">
+      <Execution id="d9433955-96e1-483a-8ddb-4a00c8e6c7eb" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="OcrStatus_Processing_IsNonTerminal" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.DownloadArchiveAsync_404_Throws" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="a7dd92c9-72ff-bce1-9187-e5379ca63f33">
+      <Execution id="8ae48d22-16ca-4eac-97d7-f2a65c5e15de" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="DownloadArchiveAsync_404_Throws" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobAsync_FailedJob_ReturnsJobWithError" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="41c8ef89-7916-61ec-4d75-9e842b0ee38c">
+      <Execution id="f2080d6e-49d7-475a-94c4-406f495816ef" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="GetJobAsync_FailedJob_ReturnsJobWithError" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.PollingPolicyTests.GetPollDelay_Attempts1To3_Returns500Ms" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="3493434f-bd1b-09a6-9b92-f9ebebcba291">
+      <Execution id="077d77de-806f-48d6-9a4d-184eacae7ac2" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.PollingPolicyTests" name="GetPollDelay_Attempts1To3_Returns500Ms" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests.GetArchive_DocumentNotFound_Returns404" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="58145a7d-c2a2-85be-2f12-1cc387142260">
+      <Execution id="289f1dc7-aba9-409d-9397-60638a06ffba" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.ArchiveStreamingIntegrationTests" name="GetArchive_DocumentNotFound_Returns404" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_ValidRequest_ReturnsJobWithJobIdAndProcessingStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="8c665d03-cb51-92f4-0f07-7cea67ab4221">
+      <Execution id="1d0679de-8032-4ba2-8218-ed3b1bd55535" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="SubmitAsync_ValidRequest_ReturnsJobWithJobIdAndProcessingStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Failed, to: Completed, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="a7116f24-1d64-a98a-1ec9-40f7e08b521e">
+      <Execution id="a74b7eb7-2695-4fe9-959b-51a3096ff34b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_400Response_ReadsErrorBodyAndThrowsInvalidFile" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="6125c01c-4295-5ecd-721e-93e20e1555d5">
+      <Execution id="125cc44d-e981-48e1-a66b-a1d05e8993e1" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="SubmitAsync_400Response_ReadsErrorBodyAndThrowsInvalidFile" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ThrowsOnUnknownToStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="b2b56ebd-4d57-1f8a-20d3-001986bbc91d">
+      <Execution id="05212dfc-f5c2-4854-ba33-00e5f63a887c" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ThrowsOnUnknownToStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.OnlyClientReferenceCrossesToOcr" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="2a6d5092-fdef-6422-f559-e0616a82a554">
+      <Execution id="1687a82c-b409-4acf-afc0-69912dd7676b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests" name="OnlyClientReferenceCrossesToOcr" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationSourceFiles_DoNotContainForbiddenUsings" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="4dde200f-9f7a-b05a-dc0a-b211b87b2909">
+      <Execution id="db6d3f75-5db9-4f52-88f3-8a7789b72666" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Architecture.ApplicationLayerTests" name="ApplicationSourceFiles_DoNotContainForbiddenUsings" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobAsync_ProcessingJob_ReturnsJobWithoutResultOrError" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="a8eb799b-c5f6-d85c-9bda-5527441d010f">
+      <Execution id="c88d11d1-2c97-4f20-ad2b-b25db0cbf513" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="GetJobAsync_ProcessingJob_ReturnsJobWithoutResultOrError" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentStatus_FailedDocument_ReturnsFailedStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="b35da4ef-00f7-75e2-436b-036bd9028acd">
+      <Execution id="42256ce3-bf14-43e4-b3a9-76b464c08a7a" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests" name="GetDocumentStatus_FailedDocument_ReturnsFailedStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;completed&quot;, expected: Completed)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="705fc424-9e72-2005-2c83-adccbdc1ba61">
+      <Execution id="eeee06bd-ced0-4ba2-8f9a-07b7c92d8250" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_PropagatesCancellationToken" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="d856c87a-20e8-eb2a-44d0-14a35d785254">
+      <Execution id="d8585a82-5589-4e25-8672-705a635c153d" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_PropagatesCancellationToken" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.PollingPolicyTests.GetPollDelay_Attempts11Plus_Returns2Seconds" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="0376b832-a2b9-98a4-5fd2-661f7814637d">
+      <Execution id="d3b779d5-51e0-4f7c-b47c-0c6afc19bc12" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.PollingPolicyTests" name="GetPollDelay_Attempts11Plus_Returns2Seconds" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.PollingPolicyTests.CreateGlobalTimeoutToken_CancelsAfterGlobalTimeout" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="c65a3bf5-02a7-9d93-628a-c710f5ebe498">
+      <Execution id="ee672856-667c-4d73-a78e-67c9c0687d5b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.PollingPolicyTests" name="CreateGlobalTimeoutToken_CancelsAfterGlobalTimeout" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.SubmitAsync_SendsCorrectMultipartFields" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="7dd96596-de4a-1048-456d-c0ad62f8bcc2">
+      <Execution id="c7deb7c3-305f-4bfd-8326-3e9b7fb81d78" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="SubmitAsync_SendsCorrectMultipartFields" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;failed&quot;, expected: Failed)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="04921e17-a53d-afe1-c78d-db2efcbd061b">
+      <Execution id="d42ddd2e-f7a2-478d-a07a-66a736c37965" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.GetDocumentText_CompletedDocument_ReturnsTextAndPageCount" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="2a923d02-3ce9-70b8-6277-2faddb96091d">
+      <Execution id="d1a416c1-713c-49f1-ace0-345fbf9d88fa" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests" name="GetDocumentText_CompletedDocument_ReturnsTextAndPageCount" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ThrowsOnUnrecognizedStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="0fdabc41-8b3b-ff82-7dec-e2199b8930a3">
+      <Execution id="ee48b7f7-59eb-4f77-8ae2-2af2741689ca" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ThrowsOnUnrecognizedStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationHasAtLeastOneTypeAndFile" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="c556374d-693a-2312-0c27-ef030e2b27f2">
+      <Execution id="9f599984-e1ad-45c1-b103-939e82fc660b" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Architecture.ApplicationLayerTests" name="ApplicationHasAtLeastOneTypeAndFile" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.StatusUpdates_PersistThroughAllIdentityMappings" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="250d8920-fcbf-053f-75a4-8854f04138bb">
+      <Execution id="87595b43-9bea-4462-bf24-ced28d3dd328" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests" name="StatusUpdates_PersistThroughAllIdentityMappings" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_ValidInput_ReturnsJobWithGeneratedClientReference" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="f448a666-099d-c4b9-74fb-0a420bcc5137">
+      <Execution id="c0566fe7-06f8-4da3-bfdd-ec5760c1550a" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_ValidInput_ReturnsJobWithGeneratedClientReference" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests.Submit_Returns202WithQueuedStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="50f01ce8-1948-b463-04ac-3683a81e5978">
+      <Execution id="5f84d24e-8ef0-44bb-be84-7ced9fb366d9" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.SubmitPollCompletedIntegrationTests" name="Submit_Returns202WithQueuedStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_ValidInput_CallsOcrClientWithCorrectParameters" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="73f42829-c27e-3d69-c4c7-8bf8645a3e5e">
+      <Execution id="dbbf731d-f6e8-447c-9d27-66f63ed7f30f" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_ValidInput_CallsOcrClientWithCorrectParameters" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.ErrorState_PersistsThroughAllIdentityMappings" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="89f6c053-dfd6-d4e7-bab0-c54294e7eb8a">
+      <Execution id="2adafd31-8b04-488e-86f1-8af3183746ed" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests" name="ErrorState_PersistsThroughAllIdentityMappings" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.ToFeStatus_MapsCorrectly(status: Failed, expectedFeStatus: &quot;failed&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="710fd54e-4fca-2643-5c1d-72e3d8b2e650">
+      <Execution id="6a633b80-4e34-455e-8ce5-9ea3119240a6" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="ToFeStatus_MapsCorrectly" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_EmptyFileContent_ThrowsArgumentException" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="672c3da9-074a-8938-999f-b7e10b9dd725">
+      <Execution id="1ac8cc3b-e3fc-45b0-89ae-4a00af6d035c" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_EmptyFileContent_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Processing, to: Pending, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="f707fac4-1abd-eb3f-e9ca-e030b0e9408e">
+      <Execution id="e50e0148-7ddb-4b9b-a3f0-c61b316fd851" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToContentPatch_AlwaysReturnsContent_EvenWhenEmpty" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="375ab223-b201-8144-6ec8-de5dd61362ea">
+      <Execution id="7b623979-9a3f-4da3-8996-279ffa629274" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.MonolithTranslatorTests" name="TranslateToContentPatch_AlwaysReturnsContent_EvenWhenEmpty" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_InvalidLanguage_ThrowsArgumentException(language: &quot;   &quot;, expectedMessage: &quot;Language is required.&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="dd102b17-2dd3-e392-9e81-2dfbd61b95a5">
+      <Execution id="de2f93b3-b302-4505-b12d-973cd56daec0" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_InvalidLanguage_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.Submit_Poll_Failed_TerminalFailure" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="ffb75912-65c1-a20e-1611-a0c715ee62a7">
+      <Execution id="2d5f7170-91f3-46d5-a6ae-eda05397e085" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.OrchestrationIntegrationTests" name="Submit_Poll_Failed_TerminalFailure" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests.GetDocumentStatus_ReturnsCorrectMappingViaDocumentId" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="8c459ee1-8009-717f-239e-ce8f025b28c6">
+      <Execution id="e7f867b3-05d3-43ec-a586-7e354de28957" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.IdentityStateOrchestrationIntegrationTests" name="GetDocumentStatus_ReturnsCorrectMappingViaDocumentId" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Failed, to: Processing, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="b1d17826-2b31-5a91-612c-627b7371968d">
+      <Execution id="d9016496-2f5e-4c99-b8e3-e0f3acb7d705" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.OcrStatus_Failed_IsTerminal" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="e1f46404-99be-5173-5165-6e41e2f0bf11">
+      <Execution id="a37e443b-0e89-4b18-945c-05762cd726ad" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="OcrStatus_Failed_IsTerminal" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.DownloadArchiveAsync_ReturnsStream" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="0930141d-1b66-a7b1-ed0d-0c5c5a1851b3">
+      <Execution id="0f3b5338-ea2b-455e-b87f-2b2e1e7c5139" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="DownloadArchiveAsync_ReturnsStream" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToUploadRequest_DerivesTitleFromFilename_WhenNotProvided" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="fd86fc56-c2ca-b1e7-8ab1-5bcef9011350">
+      <Execution id="c3f2487d-f592-474f-97fb-859cdf7a31f8" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.MonolithTranslatorTests" name="TranslateToUploadRequest_DerivesTitleFromFilename_WhenNotProvided" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_UnsupportedContentType_ThrowsArgumentException(contentType: &quot;&quot;, expectedMessage: &quot;Unsupported content type&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="a7c254fa-90c0-5dc3-a496-435e15790caa">
+      <Execution id="0a456f8f-cffd-499f-9556-5605889845ac" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_UnsupportedContentType_ThrowsArgumentException" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Pending, to: Completed, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="eb9ec233-636e-1097-eafb-3018de21470a">
+      <Execution id="590c7a5c-9060-44d5-8958-67a2dc31e508" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_AllowedContentType_DoesNotThrow(contentType: &quot;application/pdf&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="9f235c17-ad09-cca1-efc4-08e22ef6b2de">
+      <Execution id="a16c1497-31ad-4c66-ac4a-3f577196b17c" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_AllowedContentType_DoesNotThrow" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;COMPLETED&quot;, expected: Completed)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="de2a69d2-97df-2469-fd8e-b90d4922b780">
+      <Execution id="9c6f9144-c5b3-4bfe-9077-a519fbcd8a8e" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_AllowedContentType_DoesNotThrow(contentType: &quot;image/jpeg&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="24586ee8-e24d-88c7-521c-182a61f94543">
+      <Execution id="8acc2d11-1578-487a-84ed-a38411c76ba8" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_AllowedContentType_DoesNotThrow" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.ToFeStatus_ThrowsOnUnknownStatus" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="1edc16e6-61e8-5412-8e16-f7e95a20046a">
+      <Execution id="5d98c059-169a-4e33-893f-46a0b18ad0d9" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="ToFeStatus_ThrowsOnUnknownStatus" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobByUrlAsync_UsesProvidedUrl" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="d058ba63-7779-844c-4201-977b7e2cfa79">
+      <Execution id="f360f26b-d532-456b-9bf1-5c3cceacbe20" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="GetJobByUrlAsync_UsesProvidedUrl" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Processing, to: Processing, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="817ae92e-ff3f-8861-4159-05cc768ebbda">
+      <Execution id="74844472-6291-4f8e-b1d6-1e79a6312e0e" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.PollingPolicyTests.WaitPollDelayAsync_UsesCorrectDelayPerAttempt" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="dc9a3fd6-1ff2-7e8c-5cb9-9849e06e5e0f">
+      <Execution id="a636c56a-6b5c-404b-a758-a0d86cecbd57" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.PollingPolicyTests" name="WaitPollDelayAsync_UsesCorrectDelayPerAttempt" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.PollingPolicyTests.CreateGlobalTimeoutToken_LinksExternalToken" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="f5991ebf-95dc-feb6-4b76-8ff4ff7e44bd">
+      <Execution id="3aaae5a2-e1e9-4aa9-bf18-0122b39355a7" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.PollingPolicyTests" name="CreateGlobalTimeoutToken_LinksExternalToken" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.CancelledRequest_AbortsPolling" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="6a9a99e3-d400-9958-1e57-8266c9cb1531">
+      <Execution id="857a3c27-bb02-4e5e-97de-31e0ae64c9a7" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.OrchestrationIntegrationTests" name="CancelledRequest_AbortsPolling" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.OcrStatus_Pending_IsNonTerminal" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="f0dc97ff-c548-1918-71f2-e64e2f69b592">
+      <Execution id="9f64a143-fddc-4943-929d-8ea9c1342c97" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="OcrStatus_Pending_IsNonTerminal" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests.ExecuteAsync_ReturnsFailedJob_WhenOcrClientReturnsFailed" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="6ce94e8d-3a80-e2bf-6df3-406990013f64">
+      <Execution id="906df0b4-d655-4e4c-afb9-0e0908dde7d5" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.SubmitDocumentHandlerTests" name="ExecuteAsync_ReturnsFailedJob_WhenOcrClientReturnsFailed" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Completed, to: Processing, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="f8052483-a6d8-bdf1-6de3-70dd23aea448">
+      <Execution id="4c32e67c-c5b3-449d-92c1-7fef31158008" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.MonolithTranslatorTests.SelectUploadFile_Throws_WhenHasArchivedPdfIsTrue" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="32cf4e1e-6853-2265-68f4-0444aeb31dbb">
+      <Execution id="a43ef7b6-335f-4279-b0f0-0fd39609a8de" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.MonolithTranslatorTests" name="SelectUploadFile_Throws_WhenHasArchivedPdfIsTrue" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.HttpOcrClientTests.GetJobAsync_404Response_ThrowsJobNotFound" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="275df74b-9065-9ca3-d6ab-674ae3174b50">
+      <Execution id="a7135e97-c283-43bb-8b91-58b57dfd48c5" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.HttpOcrClientTests" name="GetJobAsync_404Response_ThrowsJobNotFound" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.CanTransition_ReturnsExpectedResult(from: Failed, to: Pending, expected: False)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="c885f6c0-733c-0831-0f85-f71072da339e">
+      <Execution id="cb996808-66f2-40fc-b6ef-69f37b8524d8" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="CanTransition_ReturnsExpectedResult" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.MonolithTranslatorTests.TranslateToUploadRequest_UsesTitle_WhenProvided" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="64d2f1cd-faf1-6787-5dcf-bcd377f2b643">
+      <Execution id="dc1f2d4a-5242-4c9c-82e5-4b5fafca67c7" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.MonolithTranslatorTests" name="TranslateToUploadRequest_UsesTitle_WhenProvided" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Integration.OrchestrationIntegrationTests.TransientFailure_MaxRetriesExceeded_ReturnsFailed" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="eb221b78-6f69-60fe-2bd6-2000b68b500f">
+      <Execution id="2a9456f8-d160-4586-ad96-39c9c3f083d3" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.OrchestrationIntegrationTests" name="TransientFailure_MaxRetriesExceeded_ReturnsFailed" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.FromOcrString_ParsesCaseInsensitively(input: &quot;pending&quot;, expected: Pending)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="9ae880de-383e-8472-110a-92469ba63219">
+      <Execution id="2f46db26-ee47-4e7c-ae74-c6946231c370" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="FromOcrString_ParsesCaseInsensitively" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Unit.OcrStatusTests.ToFeStatus_MapsCorrectly(status: Completed, expectedFeStatus: &quot;completed&quot;)" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="9bd46040-311b-2ed1-3842-320996a15b13">
+      <Execution id="d2c36a1b-5c5a-4926-8bb3-895cf5f4667a" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Unit.OcrStatusTests" name="ToFeStatus_MapsCorrectly" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="630d1124-70a1-c7a3-bd34-45c3778aab93" executionId="d9433955-96e1-483a-8ddb-4a00c8e6c7eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="672c3da9-074a-8938-999f-b7e10b9dd725" executionId="198579dd-97f9-4bd7-a6b7-5c6696cd235c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ce94e8d-3a80-e2bf-6df3-406990013f64" executionId="906df0b4-d655-4e4c-afb9-0e0908dde7d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24586ee8-e24d-88c7-521c-182a61f94543" executionId="8acc2d11-1578-487a-84ed-a38411c76ba8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89f6c053-dfd6-d4e7-bab0-c54294e7eb8a" executionId="2adafd31-8b04-488e-86f1-8af3183746ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c459ee1-8009-717f-239e-ce8f025b28c6" executionId="e7f867b3-05d3-43ec-a586-7e354de28957" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bd46040-311b-2ed1-3842-320996a15b13" executionId="d2c36a1b-5c5a-4926-8bb3-895cf5f4667a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2926739-78dd-7504-76ea-a27f0eff6f82" executionId="463a570a-08b5-46ff-b9e1-585c5d2159d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bf8b1c5-2e08-a444-9548-063d9c183439" executionId="53ea6a38-43d7-4bec-bfac-f40b4e98db3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0376b832-a2b9-98a4-5fd2-661f7814637d" executionId="d3b779d5-51e0-4f7c-b47c-0c6afc19bc12" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7246eb6-3f52-d9ba-6679-e1f2f5baa373" executionId="71fefbf0-0487-4e53-860d-a897094abbb2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7eea7cce-0ec1-09d2-bde7-60a437320374" executionId="4f01db55-f4d9-4e3a-8b14-46793b6df851" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6344b95a-0776-51c9-6eea-a743c69bcee2" executionId="4f6b2720-e370-4cc7-8ba1-3b06ea784b65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="275df74b-9065-9ca3-d6ab-674ae3174b50" executionId="a7135e97-c283-43bb-8b91-58b57dfd48c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e372e8e6-cf63-5e0b-d62d-9b28aa8a100b" executionId="e6007285-714d-4883-8673-b5b2d99883c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69fa620b-c6c6-e899-693e-b09569b70e36" executionId="4b514da4-1ac7-4cb6-ac42-6da61aa84fbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="517da1c4-4724-0ed0-15b8-b9e4e76d9a4c" executionId="217b011e-b68f-44cc-be1d-0c2b6901eba9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="673bb449-cd97-24d1-598c-e6078e0bab3d" executionId="49f9aa43-83cd-4a8a-bf0e-338a00cafc4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fed14be2-b242-61c0-58aa-9b73f5f94aef" executionId="958a352e-cf9d-4b2f-8263-f0b7cab78070" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03f94fef-e48c-29a3-23a7-925586f502b9" executionId="209fcbb4-f196-436c-91db-9ea9bd01a25d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3493434f-bd1b-09a6-9b92-f9ebebcba291" executionId="077d77de-806f-48d6-9a4d-184eacae7ac2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32cf4e1e-6853-2265-68f4-0444aeb31dbb" executionId="a43ef7b6-335f-4279-b0f0-0fd39609a8de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0aa3f599-953e-8112-5208-5336ed888f2c" executionId="011daf6d-16bb-4894-995d-320ba1a1258d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc9a3fd6-1ff2-7e8c-5cb9-9849e06e5e0f" executionId="a636c56a-6b5c-404b-a758-a0d86cecbd57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c665d03-cb51-92f4-0f07-7cea67ab4221" executionId="1d0679de-8032-4ba2-8218-ed3b1bd55535" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4dde200f-9f7a-b05a-dc0a-b211b87b2909" executionId="db6d3f75-5db9-4f52-88f3-8a7789b72666" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="907c5dd0-6bcd-c25f-5b75-162cd8466c94" executionId="3c910ee8-beb9-4fc5-ac4b-4aa6342e6a3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a6d5092-fdef-6422-f559-e0616a82a554" executionId="1687a82c-b409-4acf-afc0-69912dd7676b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd1113b9-247e-a388-69cf-ead2faada4ee" executionId="73913fe6-0816-407c-88d4-8cf0430114ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0311fc97-76e4-c207-0375-41e339e51531" executionId="841aa7d0-e6af-4137-87b2-45bdaae7e51b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="672c3da9-074a-8938-999f-b7e10b9dd725" executionId="1ac8cc3b-e3fc-45b0-89ae-4a00af6d035c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="527f7f50-e78e-ffba-1b8e-d314faad22ac" executionId="9e747cbf-e8a0-4e53-b0b4-e33b0e44357a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94b5ce4f-48b6-cb3b-f696-4b5963c0b053" executionId="c42fc7b5-a0db-4ad8-b3e3-1e827ca025dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3c17fbf-2a26-acec-f780-7b88928fac4a" executionId="d554c169-61c8-4b60-b453-75f0d0f1c2f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c65a3bf5-02a7-9d93-628a-c710f5ebe498" executionId="ee672856-667c-4d73-a78e-67c9c0687d5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f448a666-099d-c4b9-74fb-0a420bcc5137" executionId="c0566fe7-06f8-4da3-bfdd-ec5760c1550a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b17b3958-0461-f895-162a-bb0f7f6bff00" executionId="1eff8194-7726-4f6c-aec3-cc084ee9e562" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a9a99e3-d400-9958-1e57-8266c9cb1531" executionId="857a3c27-bb02-4e5e-97de-31e0ae64c9a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41c8ef89-7916-61ec-4d75-9e842b0ee38c" executionId="f2080d6e-49d7-475a-94c4-406f495816ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="09597142-8c2c-171e-2724-21fbe283a562" executionId="d847675f-f825-4158-9620-109ef0cdc0ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="955b1558-0566-34a5-80ad-329778e17ad9" executionId="bbc1576b-7633-4993-b213-d0dc1e0222d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="003c7e18-83c1-2083-305d-629e568c84ca" executionId="43f98271-5785-448c-91d5-afd7b91695c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f235c17-ad09-cca1-efc4-08e22ef6b2de" executionId="a16c1497-31ad-4c66-ac4a-3f577196b17c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfc917da-aa4c-337f-b594-85f568b3c7b5" executionId="bb599560-dd21-4d64-b37f-4f86180a5b13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab81a367-e25b-b897-95e5-43724f5d50c6" executionId="b27ffe54-134c-4add-b448-2cb505979357" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6125c01c-4295-5ecd-721e-93e20e1555d5" executionId="125cc44d-e981-48e1-a66b-a1d05e8993e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="856a2b19-4cd9-0882-094a-8811121fe6ad" executionId="22aaeba1-c855-4967-ab8f-a84c41d2deb2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aeacfdb3-1e5d-cda1-4297-13b18cb5389a" executionId="f2285640-38ad-462f-8405-30e5a76fe28b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58145a7d-c2a2-85be-2f12-1cc387142260" executionId="289f1dc7-aba9-409d-9397-60638a06ffba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0930141d-1b66-a7b1-ed0d-0c5c5a1851b3" executionId="0f3b5338-ea2b-455e-b87f-2b2e1e7c5139" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ae880de-383e-8472-110a-92469ba63219" executionId="2f46db26-ee47-4e7c-ae74-c6946231c370" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6efc514-0f7a-113c-8853-af627fd34a7e" executionId="8145a561-6f51-4fb2-9d10-55c72bbd8fd0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64d2f1cd-faf1-6787-5dcf-bcd377f2b643" executionId="dc1f2d4a-5242-4c9c-82e5-4b5fafca67c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dd96596-de4a-1048-456d-c0ad62f8bcc2" executionId="c7deb7c3-305f-4bfd-8326-3e9b7fb81d78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4cec1eb-4b59-8368-70bd-acf89287fa87" executionId="a9913956-16e3-4458-a4df-d06b690ec6f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="224d952c-9347-1edb-e70b-254355aac836" executionId="99e0504e-a69e-4590-bfcf-c1fa9d1e5fc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56d77dd9-8a8f-aa54-4670-0b6e33ce2f08" executionId="2b26fa62-8a21-4fc3-ab17-924f06f9adfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8052483-a6d8-bdf1-6de3-70dd23aea448" executionId="4c32e67c-c5b3-449d-92c1-7fef31158008" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e28d3c7-093a-4f06-e44d-71719b52d6e6" executionId="8b9706ba-003a-4a89-97f0-726c11fa4914" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb221b78-6f69-60fe-2bd6-2000b68b500f" executionId="2a9456f8-d160-4586-ad96-39c9c3f083d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf488743-4fe0-e78b-a5e2-6f7eee9f30f5" executionId="a407346f-bff4-468f-9636-e7902cea4b2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5991ebf-95dc-feb6-4b76-8ff4ff7e44bd" executionId="3aaae5a2-e1e9-4aa9-bf18-0122b39355a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c556374d-693a-2312-0c27-ef030e2b27f2" executionId="9f599984-e1ad-45c1-b103-939e82fc660b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c891014-ae9c-03b1-0275-64567979a676" executionId="d47226c3-69d6-4871-808e-8aaacb69563a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7dd92c9-72ff-bce1-9187-e5379ca63f33" executionId="8ae48d22-16ca-4eac-97d7-f2a65c5e15de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7c254fa-90c0-5dc3-a496-435e15790caa" executionId="0a456f8f-cffd-499f-9556-5605889845ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73f42829-c27e-3d69-c4c7-8bf8645a3e5e" executionId="dbbf731d-f6e8-447c-9d27-66f63ed7f30f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1f46404-99be-5173-5165-6e41e2f0bf11" executionId="a37e443b-0e89-4b18-945c-05762cd726ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94783820-3697-97b8-9e5d-a6554c53b15a" executionId="334ee6cd-3d44-4522-8456-05cfaeba1a24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0553ede-43d8-c651-1eb1-4297993ee4bc" executionId="d5cda3a5-0081-481d-8121-1e80da50828f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6c9c92c-1890-beb6-9913-9c6c521dc70c" executionId="36db4cd3-2d21-4de1-85f3-3ad0ab1683a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a923d02-3ce9-70b8-6277-2faddb96091d" executionId="d1a416c1-713c-49f1-ace0-345fbf9d88fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f539ce4-06ff-8f04-2e88-a034a9cdaf71" executionId="06cbe977-b148-4d1f-8479-e415bd317353" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="705fc424-9e72-2005-2c83-adccbdc1ba61" executionId="eeee06bd-ced0-4ba2-8f9a-07b7c92d8250" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f1d3e8a-0209-a229-2275-a6a359889fa9" executionId="ef1deb8b-6753-48b5-9e33-8af0dd98051d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c885f6c0-733c-0831-0f85-f71072da339e" executionId="cb996808-66f2-40fc-b6ef-69f37b8524d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffb75912-65c1-a20e-1611-a0c715ee62a7" executionId="2d5f7170-91f3-46d5-a6ae-eda05397e085" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2b56ebd-4d57-1f8a-20d3-001986bbc91d" executionId="05212dfc-f5c2-4854-ba33-00e5f63a887c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7116f24-1d64-a98a-1ec9-40f7e08b521e" executionId="a74b7eb7-2695-4fe9-959b-51a3096ff34b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d51d10e5-3f4e-49be-4b83-506984e59b3d" executionId="4906eecb-942f-4a49-8280-e6bc27e9fbcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c12caadf-3ad3-d6ec-e1c1-651c856b2536" executionId="fce1c3a3-c56e-43e7-9887-f1ce8f7495a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0dc97ff-c548-1918-71f2-e64e2f69b592" executionId="9f64a143-fddc-4943-929d-8ea9c1342c97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c038d6c-3a54-5daa-c4ba-aba632916566" executionId="87e3def8-20aa-456e-bc15-b055e8393fa5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de2a69d2-97df-2469-fd8e-b90d4922b780" executionId="9c6f9144-c5b3-4bfe-9077-a519fbcd8a8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="710fd54e-4fca-2643-5c1d-72e3d8b2e650" executionId="6a633b80-4e34-455e-8ce5-9ea3119240a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="686d00d8-f7e6-6173-be26-ac66fdde4c7b" executionId="a053772c-dbb2-4209-810b-5d1e0d99ce8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="375ab223-b201-8144-6ec8-de5dd61362ea" executionId="7b623979-9a3f-4da3-8996-279ffa629274" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cc50c88-7c75-71ce-619d-9f9966124748" executionId="c170d291-29fa-4bd6-916f-edaa2f4b2dd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04921e17-a53d-afe1-c78d-db2efcbd061b" executionId="d42ddd2e-f7a2-478d-a07a-66a736c37965" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd86fc56-c2ca-b1e7-8ab1-5bcef9011350" executionId="c3f2487d-f592-474f-97fb-859cdf7a31f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3bdb0d0-8de2-f3a7-81a0-43b2f6856c8c" executionId="d31bb69e-34e1-4644-bcbc-24e5cca1591f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fdabc41-8b3b-ff82-7dec-e2199b8930a3" executionId="ee48b7f7-59eb-4f77-8ae2-2af2741689ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51ce10b6-c30d-2cf0-3d31-d6913cc3ded4" executionId="b471886c-1732-4b85-b517-c48a8b88daf2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22564a75-0dc1-0aa9-6538-57ae183feb22" executionId="1df79d62-7cea-45dc-a2b5-1baed023067d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e24aa728-5c39-be18-8c33-10324afb8f72" executionId="4e118b6a-b9a4-4df2-9873-b507ab7ceabe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f707fac4-1abd-eb3f-e9ca-e030b0e9408e" executionId="e50e0148-7ddb-4b9b-a3f0-c61b316fd851" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80bc7377-4c08-fd12-a4de-3d493d78d22c" executionId="ae2f625e-4582-40c0-ae23-6486bc520cec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffb23fd8-fa5f-c88b-fa81-8003e827039f" executionId="ca2ce4c9-aba3-4e57-8feb-adc9dd621775" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b35da4ef-00f7-75e2-436b-036bd9028acd" executionId="42256ce3-bf14-43e4-b3a9-76b464c08a7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db658ceb-1542-3cf9-2c91-10eabb438a3e" executionId="b2b770f3-7865-44d8-bbb4-dc5f7996f70d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51c5d0ed-f071-35d6-9862-264c783f4e93" executionId="8287b43b-bbc5-47ee-ba1a-f371c309f28f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9bb8f446-0b94-4051-c1d0-50278b95535a" executionId="749c788b-b8e5-42df-9d30-8915c4e1652c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf405e81-86a3-ea36-ff74-6244476b75d0" executionId="19f8b6db-70fc-4a8a-b1b7-2616010f81d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b95d9e80-ff11-33fd-180e-6910b9b86fa5" executionId="838eac83-c896-442e-b84d-a2c04a858721" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a8eb799b-c5f6-d85c-9bda-5527441d010f" executionId="c88d11d1-2c97-4f20-ad2b-b25db0cbf513" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7c8ae84-7e24-9eeb-bbeb-dbea17d9011e" executionId="a4f34b07-652a-4230-9169-1544868e3855" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb9ec233-636e-1097-eafb-3018de21470a" executionId="590c7a5c-9060-44d5-8958-67a2dc31e508" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="817ae92e-ff3f-8861-4159-05cc768ebbda" executionId="74844472-6291-4f8e-b1d6-1e79a6312e0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8c88aaf-5bfc-3652-8acd-38ed22b082a0" executionId="2339e863-afeb-4572-8cef-df5b5b992ee1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="663bee1e-9db5-ddc9-dca7-0dfe541f6dea" executionId="bcbaf50a-b888-4cb4-b155-35b5d46a189f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1edc16e6-61e8-5412-8e16-f7e95a20046a" executionId="5d98c059-169a-4e33-893f-46a0b18ad0d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b682678-fd45-29c2-faf3-b57b636a52ac" executionId="0bbe8b33-e63d-4f15-a89a-053e26838ede" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e08f1148-b108-1687-4752-5c6fad06e722" executionId="1abc7562-4142-4114-aa36-5fbfa02e26cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51dd613e-206f-a51f-dbea-77aefc3fc733" executionId="6b2f6a12-eba4-43bd-ad05-3b1025f7151b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d058ba63-7779-844c-4201-977b7e2cfa79" executionId="f360f26b-d532-456b-9bf1-5c3cceacbe20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd102b17-2dd3-e392-9e81-2dfbd61b95a5" executionId="de2f93b3-b302-4505-b12d-973cd56daec0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="298905ec-d922-b5dd-714b-00f7c19866fd" executionId="3efef988-9805-4ee0-a79e-685305e149c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83844928-b39d-3984-48f2-dfd73a83a0c8" executionId="7d5ccec2-b9cd-435f-a095-f4cca4df02a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf9867e9-25a5-3eed-18c5-c1a867defacf" executionId="98ffb05f-81c4-4a05-8d8e-7f2f65029e59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc2e9c48-39fb-fe07-c10a-00121ae3394d" executionId="8ea59848-3dcf-4550-94cd-e05788705291" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="250d8920-fcbf-053f-75a4-8854f04138bb" executionId="87595b43-9bea-4462-bf24-ced28d3dd328" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="378bba08-2367-3a0b-293e-2b012bb3fd83" executionId="2d87aec2-4ef4-40d0-a4ae-26ba74666d1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de7c915b-a355-3c19-0227-15736db6f768" executionId="03272cc6-0285-45c3-81db-add885612df9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1d17826-2b31-5a91-612c-627b7371968d" executionId="d9016496-2f5e-4c99-b8e3-e0f3acb7d705" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38c1e1c6-b9d3-0c68-10d4-bb8038d1cb7b" executionId="31f880b8-311c-4a51-908a-9dd51c275f9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6707c95b-9482-9646-0e3e-1fd19306e33a" executionId="082e1905-65a5-404a-a861-3299cc47205a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50f01ce8-1948-b463-04ac-3683a81e5978" executionId="5f84d24e-8ef0-44bb-be84-7ced9fb366d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d856c87a-20e8-eb2a-44d0-14a35d785254" executionId="d8585a82-5589-4e25-8672-705a635c153d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="128" executed="128" passed="127" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.9)
+[xUnit.net 00:00:00.06]   Discovering: OcrAcl.Tests
+[xUnit.net 00:00:00.14]   Discovered:  OcrAcl.Tests
+[xUnit.net 00:00:00.18]   Starting:    OcrAcl.Tests
+[xUnit.net 00:00:00.30]       Assert.Empty() Failure: Collection was not empty
+[xUnit.net 00:00:00.30]       Collection: ["src/OcrAcl.Api/Application/Services/DeliverResultT"···]
+[xUnit.net 00:00:00.30]       Stack Trace:
+[xUnit.net 00:00:00.30]         /home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/Architecture/ApplicationLayerTests.cs(74,0): at OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationSourceFiles_DoNotContainForbiddenUsings()
+[xUnit.net 00:00:00.30]            at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+[xUnit.net 00:00:00.30]            at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+fail: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Unexpected error polling job dbe4aa60-3d80-47d4-b02d-43d6c1b6b1f4
+      System.InvalidOperationException: Job not found
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlInternalAsync(String url, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 171
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlAsync(String pollingUrl, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 92
+         at OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService.PollJobAsync(Guid jobId, String clientReference, Guid documentId, CancellationToken stoppingToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/OcrPollingBackgroundService.cs:line 103
+fail: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Polling failed for document ae003736-8476-46a6-a3e9-4e3647c1e0d6: OCR_PROCESSING_FAILED - Polling error: Job not found
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Job 01233942-8fc8-4325-b62d-497b8f3e7929 completed successfully for document a316a953-9cc2-4f1f-b05c-d4468267a3a3
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Job cbde783e-c54c-4267-a9e1-69356b98eb7e failed for document 62d160fd-0787-40f7-9b5f-4c05df89b1e1: ENGINE_ERROR - OCR engine crashed
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+warn: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Transient error polling job 81a27c00-58b5-48d0-bd21-1f86670aca9c, retry 1/3
+      System.Net.Http.HttpRequestException: Transient error: ServiceUnavailable
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlInternalAsync(String url, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 184
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlAsync(String pollingUrl, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 92
+         at OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService.PollJobAsync(Guid jobId, String clientReference, Guid documentId, CancellationToken stoppingToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/OcrPollingBackgroundService.cs:line 103
+warn: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Transient error polling job 81a27c00-58b5-48d0-bd21-1f86670aca9c, retry 2/3
+      System.Net.Http.HttpRequestException: Transient error: ServiceUnavailable
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlInternalAsync(String url, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 184
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlAsync(String pollingUrl, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 92
+         at OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService.PollJobAsync(Guid jobId, String clientReference, Guid documentId, CancellationToken stoppingToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/OcrPollingBackgroundService.cs:line 103
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Job 81a27c00-58b5-48d0-bd21-1f86670aca9c completed successfully for document 99cb71dd-81c5-4fdd-be6b-5a48416ff8f9
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service started
+warn: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Transient error polling job ec15c413-5c82-4aa1-9d6f-2ff21d83e27e, retry 1/3
+      System.Net.Http.HttpRequestException: Transient error: ServiceUnavailable
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlInternalAsync(String url, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 184
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlAsync(String pollingUrl, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 92
+         at OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService.PollJobAsync(Guid jobId, String clientReference, Guid documentId, CancellationToken stoppingToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/OcrPollingBackgroundService.cs:line 103
+warn: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Transient error polling job ec15c413-5c82-4aa1-9d6f-2ff21d83e27e, retry 2/3
+      System.Net.Http.HttpRequestException: Transient error: ServiceUnavailable
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlInternalAsync(String url, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 184
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlAsync(String pollingUrl, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 92
+         at OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService.PollJobAsync(Guid jobId, String clientReference, Guid documentId, CancellationToken stoppingToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/OcrPollingBackgroundService.cs:line 103
+warn: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Transient error polling job ec15c413-5c82-4aa1-9d6f-2ff21d83e27e, retry 3/3
+      System.Net.Http.HttpRequestException: Transient error: ServiceUnavailable
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlInternalAsync(String url, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 184
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlAsync(String pollingUrl, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 92
+         at OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService.PollJobAsync(Guid jobId, String clientReference, Guid documentId, CancellationToken stoppingToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/OcrPollingBackgroundService.cs:line 103
+fail: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Max transient retries exceeded for job ec15c413-5c82-4aa1-9d6f-2ff21d83e27e
+      System.Net.Http.HttpRequestException: Transient error: ServiceUnavailable
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlInternalAsync(String url, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 184
+         at OcrAcl.Infrastructure.Ocr.HttpOcrClient.GetJobByUrlAsync(String pollingUrl, CancellationToken cancellationToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/HttpOcrClient.cs:line 92
+         at OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService.PollJobAsync(Guid jobId, String clientReference, Guid documentId, CancellationToken stoppingToken) in /home/steven/Documents/GitLab/Paperless-ngx/acl/src/OcrAcl.Api/Infrastructure/Ocr/OcrPollingBackgroundService.cs:line 103
+fail: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      Polling failed for document eea12cbb-858d-464e-b374-dce881d25b74: SERVICE_UNAVAILABLE - OCR service unavailable after retries
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+info: OcrAcl.Infrastructure.Ocr.OcrPollingBackgroundService[0]
+      OCR polling background service stopped
+[xUnit.net 00:00:36.57]   Finished:    OcrAcl.Tests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="linux" outcome="Error" timestamp="2026-11-01T01:42:29.6061129-05:00">
+        <Text>[xUnit.net 00:00:00.30]     OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationSourceFiles_DoNotContainForbiddenUsings [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

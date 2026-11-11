@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="81af52ea-6471-4bd8-9ff4-d048cdf49f44" name="@linux 2026-10-31 16:57:49" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-31T16:57:49.9685832-05:00" queuing="2026-10-31T16:57:49.9685833-05:00" start="2026-10-31T16:57:49.3379395-05:00" finish="2026-10-31T16:57:49.9730520-05:00" />
+  <TestSettings name="default" id="a77cfbb8-4e24-48d3-87dc-31f946fcf694">
+    <Deployment runDeploymentRoot="_linux_2026-10-31_16_57_49" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="7d82039c-9dd6-46e2-8ee0-c7a004c99735" testId="4dde200f-9f7a-b05a-dc0a-b211b87b2909" testName="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationSourceFiles_DoNotContainForbiddenUsings" computerName="linux" duration="00:00:00.0029501" startTime="2026-10-31T16:57:49.8569487-05:00" endTime="2026-10-31T16:57:49.8569907-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d82039c-9dd6-46e2-8ee0-c7a004c99735" />
+    <UnitTestResult executionId="7f985e9f-e678-4d99-b131-b852492a960f" testId="527f7f50-e78e-ffba-1b8e-d314faad22ac" testName="OcrAcl.Tests.Architecture.ApplicationLayerTests.ScanHelper_DetectsForbiddenUsingInSyntheticInput" computerName="linux" duration="00:00:00.0026457" startTime="2026-10-31T16:57:49.8561536-05:00" endTime="2026-10-31T16:57:49.8562203-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f985e9f-e678-4d99-b131-b852492a960f" />
+    <UnitTestResult executionId="0a3367b7-5cee-414e-9aed-db1fac0fab7f" testId="d6efc514-0f7a-113c-8853-af627fd34a7e" testName="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationNamespaces_MatchFolderStructure" computerName="linux" duration="00:00:00.0010705" startTime="2026-10-31T16:57:49.8567870-05:00" endTime="2026-10-31T16:57:49.8568335-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a3367b7-5cee-414e-9aed-db1fac0fab7f" />
+    <UnitTestResult executionId="0ff164e2-8c45-49bf-88b2-907e35f85fcb" testId="cfc917da-aa4c-337f-b594-85f568b3c7b5" testName="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationTypes_DoNotReferenceForbiddenNamespaces" computerName="linux" duration="00:00:00.0016256" startTime="2026-10-31T16:57:49.8570877-05:00" endTime="2026-10-31T16:57:49.8571405-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ff164e2-8c45-49bf-88b2-907e35f85fcb" />
+    <UnitTestResult executionId="be961aa2-1530-40f5-b653-97ce869a6048" testId="c556374d-693a-2312-0c27-ef030e2b27f2" testName="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationHasAtLeastOneTypeAndFile" computerName="linux" duration="00:00:00.0052069" startTime="2026-10-31T16:57:49.8374017-05:00" endTime="2026-10-31T16:57:49.8481369-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be961aa2-1530-40f5-b653-97ce869a6048" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationSourceFiles_DoNotContainForbiddenUsings" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="4dde200f-9f7a-b05a-dc0a-b211b87b2909">
+      <Execution id="7d82039c-9dd6-46e2-8ee0-c7a004c99735" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Architecture.ApplicationLayerTests" name="ApplicationSourceFiles_DoNotContainForbiddenUsings" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationNamespaces_MatchFolderStructure" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="d6efc514-0f7a-113c-8853-af627fd34a7e">
+      <Execution id="0a3367b7-5cee-414e-9aed-db1fac0fab7f" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Architecture.ApplicationLayerTests" name="ApplicationNamespaces_MatchFolderStructure" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationTypes_DoNotReferenceForbiddenNamespaces" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="cfc917da-aa4c-337f-b594-85f568b3c7b5">
+      <Execution id="0ff164e2-8c45-49bf-88b2-907e35f85fcb" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Architecture.ApplicationLayerTests" name="ApplicationTypes_DoNotReferenceForbiddenNamespaces" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Architecture.ApplicationLayerTests.ApplicationHasAtLeastOneTypeAndFile" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="c556374d-693a-2312-0c27-ef030e2b27f2">
+      <Execution id="be961aa2-1530-40f5-b653-97ce869a6048" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Architecture.ApplicationLayerTests" name="ApplicationHasAtLeastOneTypeAndFile" />
+    </UnitTest>
+    <UnitTest name="OcrAcl.Tests.Architecture.ApplicationLayerTests.ScanHelper_DetectsForbiddenUsingInSyntheticInput" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="527f7f50-e78e-ffba-1b8e-d314faad22ac">
+      <Execution id="7f985e9f-e678-4d99-b131-b852492a960f" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Architecture.ApplicationLayerTests" name="ScanHelper_DetectsForbiddenUsingInSyntheticInput" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4dde200f-9f7a-b05a-dc0a-b211b87b2909" executionId="7d82039c-9dd6-46e2-8ee0-c7a004c99735" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="527f7f50-e78e-ffba-1b8e-d314faad22ac" executionId="7f985e9f-e678-4d99-b131-b852492a960f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d6efc514-0f7a-113c-8853-af627fd34a7e" executionId="0a3367b7-5cee-414e-9aed-db1fac0fab7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cfc917da-aa4c-337f-b594-85f568b3c7b5" executionId="0ff164e2-8c45-49bf-88b2-907e35f85fcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c556374d-693a-2312-0c27-ef030e2b27f2" executionId="be961aa2-1530-40f5-b653-97ce869a6048" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.9)
+[xUnit.net 00:00:00.06]   Discovering: OcrAcl.Tests
+[xUnit.net 00:00:00.13]   Discovered:  OcrAcl.Tests
+[xUnit.net 00:00:00.15]   Starting:    OcrAcl.Tests
+[xUnit.net 00:00:00.19]   Finished:    OcrAcl.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

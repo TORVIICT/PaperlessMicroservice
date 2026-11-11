@@ -1,0 +1,146 @@
+services:
+  kong:
+    image: ${KONG_IMAGE:-kong:3.9.4}
+    container_name: kong
+    restart: unless-stopped
+    environment:
+      KONG_DATABASE: "off"
+      KONG_DECLARATIVE_CONFIG: /kong/declarative/kong.yml
+      KONG_PROXY_LISTEN: 0.0.0.0:8000
+      KONG_ADMIN_LISTEN: 0.0.0.0:8001
+      KONG_PROXY_ACCESS_LOG: /dev/stdout
+      KONG_ADMIN_ACCESS_LOG: /dev/stdout
+      KONG_PROXY_ERROR_LOG: /dev/stderr
+      KONG_ADMIN_ERROR_LOG: /dev/stderr
+      KONG_LOG_LEVEL: ${KONG_LOG_LEVEL:-info}
+      # `client_max_body_size` es una directiva de Nginx, no un campo de
+      # kong.yml. Se inyecta en el bloque http del contenedor.
+      KONG_NGINX_HTTP_CLIENT_MAX_BODY_SIZE: ${KONG_CLIENT_MAX_BODY_SIZE:-55m}
+    volumes:
+      - ./kong/kong.yml:/kong/declarative/kong.yml:ro
+    ports:
+      - "${KONG_PROXY_PORT:-8000}:8000"
+      - "127.0.0.1:${KONG_ADMIN_PORT:-8001}:8001"
+    healthcheck:
+      test: ["CMD", "kong", "health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    networks:
+      - modernization
+
+  postgres:
+    image: ${POSTGRES_IMAGE:-postgres:17-alpine}
+    container_name: ocr-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-ocr}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?POSTGRES_PASSWORD is required}
+      POSTGRES_DB: ${POSTGRES_DB:-ocr}
+    volumes:
+      - ocr-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - modernization
+
+  ocr-api:
+    build:
+      context: ../ocr
+      dockerfile: Dockerfile
+      target: ocr-api
+    image: ${OCR_API_IMAGE:-paperless-ocr-api:local}
+    container_name: ocr-api
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__Ocr: Host=postgres;Port=5432;Database=${POSTGRES_DB:-ocr};Username=${POSTGRES_USER:-ocr};Password=${POSTGRES_PASSWORD}
+      OCR_DB_CONNECTION_STRING: Host=postgres;Port=5432;Database=${POSTGRES_DB:-ocr};Username=${POSTGRES_USER:-ocr};Password=${POSTGRES_PASSWORD}
+      # La API solo persiste; el worker externo procesa.
+      Worker__Mode: external
+      STORAGE_BASE_PATH: /shared/storage
+    volumes:
+      - ocr-storage:/shared
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    networks:
+      - modernization
+
+  ocr-worker:
+    build:
+      context: ../ocr
+      dockerfile: Dockerfile
+      target: ocr-worker
+    image: ${OCR_WORKER_IMAGE:-paperless-ocr-worker:local}
+    container_name: ocr-worker
+    restart: unless-stopped
+    environment:
+      DOTNET_ENVIRONMENT: Production
+      OCR_DB_CONNECTION_STRING: Host=postgres;Port=5432;Database=${POSTGRES_DB:-ocr};Username=${POSTGRES_USER:-ocr};Password=${POSTGRES_PASSWORD}
+      STORAGE_BASE_PATH: /shared/storage
+      AclNotification__Enabled: "true"
+      AclNotification__CompletionUrl: http://acl-api:8080/api/internal/v1/ocr/completed
+      AclNotification__InternalToken: ${INTERNAL_TOKEN:?INTERNAL_TOKEN is required}
+      AclNotification__MaxAttempts: ${OCR_SYNC_MAX_ATTEMPTS:-3}
+      AclNotification__InitialDelaySeconds: ${OCR_SYNC_INITIAL_BACKOFF_SECONDS:-1}
+    volumes:
+      - ocr-storage:/shared
+    depends_on:
+      postgres:
+        condition: service_healthy
+      ocr-api:
+        condition: service_healthy
+      acl-api:
+        condition: service_healthy
+    networks:
+      - modernization
+
+  acl-api:
+    build:
+      context: ../acl
+      dockerfile: Dockerfile
+    image: ${ACL_API_IMAGE:-paperless-acl-api:local}
+    container_name: acl-api
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://+:8080
+      OCR_SERVICE_URL: http://ocr-api:8080
+      MONOLITH_BASE_URL: ${PAPERLESS_BASE_URL:-http://paperless-webserver:8000}
+      MONOLITH_API_TOKEN: ${PAPERLESS_API_TOKEN:-}
+      INTERNAL_SERVICE_TOKEN: ${INTERNAL_TOKEN:?INTERNAL_TOKEN is required}
+    ports:
+      - "127.0.0.1:${ACL_PORT:-5058}:8080"
+    depends_on:
+      ocr-api:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health/ready"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    networks:
+      - modernization
+
+volumes:
+  ocr-postgres:
+    name: paperless-ocr-postgres
+  ocr-storage:
+    name: paperless-ocr-storage
+
+networks:
+  modernization:
+    name: paperless-modernization

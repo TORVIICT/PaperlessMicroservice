@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OcrAcl.Api/OcrAcl.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OcrAcl.Tests/OcrAcl.Tests.csproj" />
+  </Folder>
+</Solution>

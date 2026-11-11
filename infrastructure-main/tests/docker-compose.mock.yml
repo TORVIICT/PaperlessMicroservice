@@ -1,0 +1,18 @@
+# Reemplaza el OCR real por un upstream que refleja la solicitud recibida.
+# Solo valida el enrutamiento de Kong; no valida el contrato del OCR.
+services:
+  ocr-api:
+    build: !reset null
+    image: traefik/whoami:v1.12.0
+    command:
+      - --port=8080
+    environment: !reset {}
+    depends_on: !reset {}
+    # whoami no implementa /health/ready del OCR real.
+    healthcheck:
+      disable: true
+
+  ocr-worker:
+    depends_on:
+      ocr-api:
+        condition: service_started

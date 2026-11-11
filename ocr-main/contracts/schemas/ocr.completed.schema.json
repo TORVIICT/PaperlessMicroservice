@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paperless-ngx.local/schemas/ocr.completed.schema.json",
+  "title": "OcrCompletedEvent",
+  "description": "Evento publicado cuando un trabajo de OCR finaliza exitosamente. Consumido principalmente por el Microservicio de Búsqueda para indexación.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "messageId",
+    "correlationId",
+    "jobId",
+    "pageCount",
+    "durationMs",
+    "engineVersion",
+    "completedAt"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1,
+      "description": "Versión del esquema del mensaje."
+    },
+    "messageId": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identificador único del mensaje para control de idempotencia."
+    },
+    "correlationId": {
+      "type": "string",
+      "description": "Identificador para rastreo distribuido de la operación."
+    },
+    "jobId": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identificador del trabajo de OCR."
+    },
+    "clientReference": {
+      "type": ["string", "null"],
+      "description": "Referencia opaca del documento provista por Paperless-ngx (ej. doc-1234)."
+    },
+    "text": {
+      "type": "string",
+      "description": "Texto extraído del documento (embebido o disponible vía referencia)."
+    },
+    "textRef": {
+      "type": "string",
+      "description": "Ruta o clave en el almacenamiento donde se guardó el texto completo."
+    },
+    "pdfaRef": {
+      "type": "string",
+      "description": "Ruta o clave del archivo PDF/A generado."
+    },
+    "thumbnailRef": {
+      "type": "string",
+      "description": "Ruta o clave de la imagen miniatura generada."
+    },
+    "pageCount": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Número de páginas procesadas."
+    },
+    "durationMs": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Duración de la ejecución del OCR en milisegundos."
+    },
+    "engineVersion": {
+      "type": "string",
+      "description": "Versión de OCRmyPDF / Tesseract utilizada."
+    },
+    "completedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Fecha y hora ISO-8601 en la que finalizó el procesamiento."
+    }
+  },
+  "additionalProperties": false
+}

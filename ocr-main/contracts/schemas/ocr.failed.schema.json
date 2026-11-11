@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://paperless-ngx.local/schemas/ocr.failed.schema.json",
+  "title": "OcrFailedEvent",
+  "description": "Evento publicado cuando un trabajo de OCR falla de forma definitiva.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "messageId",
+    "correlationId",
+    "jobId",
+    "errorCode",
+    "errorMessage",
+    "retryable",
+    "failedAt"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1,
+      "description": "Versión del esquema del mensaje."
+    },
+    "messageId": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identificador único del mensaje."
+    },
+    "correlationId": {
+      "type": "string",
+      "description": "Identificador para rastreo distribuido."
+    },
+    "jobId": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identificador del trabajo de OCR."
+    },
+    "clientReference": {
+      "type": ["string", "null"],
+      "description": "Referencia opaca del documento provista por Paperless-ngx."
+    },
+    "errorCode": {
+      "type": "string",
+      "enum": [
+        "ENCRYPTED_PDF",
+        "CORRUPT_FILE",
+        "UNSUPPORTED_FORMAT",
+        "TIMEOUT",
+        "ENGINE_ERROR",
+        "INTERNAL_ERROR"
+      ],
+      "description": "Código estandarizado de error de OCR."
+    },
+    "errorMessage": {
+      "type": "string",
+      "description": "Mensaje legible del fallo."
+    },
+    "retryable": {
+      "type": "boolean",
+      "description": "Indica si el error es transitorio."
+    },
+    "failedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Fecha y hora en la que se registró el fallo."
+    }
+  },
+  "additionalProperties": false
+}

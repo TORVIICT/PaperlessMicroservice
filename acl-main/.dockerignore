@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vs
+.vscode
+**/bin
+**/obj
+**/TestResults
+docs
+PoC
+tests
+*.md
+*.pdf

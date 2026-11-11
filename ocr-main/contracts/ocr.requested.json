@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "messageId": "b6f1c0de-0000-4000-8000-000000000001",
+  "correlationId": "d3a2a3b4-0000-4000-8000-000000000002",
+  "documentId": 1234,
+  "fileRef": "ocr/in/2026/10/abc123.pdf",
+  "mimeType": "application/pdf",
+  "language": "spa+eng",
+  "mode": "skip",
+  "attempt": 1,
+  "requestedAt": "2026-10-05T14:30:00Z"
+}

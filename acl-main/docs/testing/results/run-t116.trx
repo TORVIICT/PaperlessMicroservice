@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="efc2619c-e5bc-4e21-a54e-eb4c642bcb02" name="@linux 2026-11-01 02:42:33" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-01T02:42:33.3636517-05:00" queuing="2026-11-01T02:42:33.3636517-05:00" start="2026-11-01T02:42:31.6625208-05:00" finish="2026-11-01T02:42:33.3693473-05:00" />
+  <TestSettings name="default" id="ce6ed1e1-7a86-4bd2-bffc-b1b7765bf3c7">
+    <Deployment runDeploymentRoot="_linux_2026-11-01_02_42_33" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d8b44ce5-0ce8-4af0-9a82-5f70035e3244" testId="b589d4e4-a67d-f2f3-35c6-cb0856407866" testName="OcrAcl.Tests.Integration.MonolithHopEndToEndTests.T116_MonolithHop_EndToEnd_UploadsDocumentAndPatchesContent" computerName="linux" duration="00:00:00.9088282" startTime="2026-11-01T02:42:32.2211640-05:00" endTime="2026-11-01T02:42:33.2427696-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8b44ce5-0ce8-4af0-9a82-5f70035e3244" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="OcrAcl.Tests.Integration.MonolithHopEndToEndTests.T116_MonolithHop_EndToEnd_UploadsDocumentAndPatchesContent" storage="/home/steven/documents/gitlab/paperless-ngx/acl/tests/ocracl.tests/bin/debug/net10.0/ocracl.tests.dll" id="b589d4e4-a67d-f2f3-35c6-cb0856407866">
+      <Execution id="d8b44ce5-0ce8-4af0-9a82-5f70035e3244" />
+      <TestMethod codeBase="/home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0/OcrAcl.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="OcrAcl.Tests.Integration.MonolithHopEndToEndTests" name="T116_MonolithHop_EndToEnd_UploadsDocumentAndPatchesContent" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b589d4e4-a67d-f2f3-35c6-cb0856407866" executionId="d8b44ce5-0ce8-4af0-9a82-5f70035e3244" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.9)
+[xUnit.net 00:00:00.08]   Discovering: OcrAcl.Tests
+[xUnit.net 00:00:00.15]   Discovered:  OcrAcl.Tests
+[xUnit.net 00:00:00.17]   Starting:    OcrAcl.Tests
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/steven/Documents/GitLab/Paperless-ngx/acl/tests/OcrAcl.Tests/bin/Debug/net10.0
+info: System.Net.Http.HttpClient.MonolithClient.LogicalHandler[100]
+      Start processing HTTP request POST http://localhost:8010/api/documents/post_document/
+info: System.Net.Http.HttpClient.MonolithClient.ClientHandler[100]
+      Sending HTTP request POST http://localhost:8010/api/documents/post_document/
+info: System.Net.Http.HttpClient.MonolithClient.ClientHandler[101]
+      Received HTTP response headers after 79.6346ms - 200
+info: System.Net.Http.HttpClient.MonolithClient.LogicalHandler[101]
+      End processing HTTP request after 93.9858ms - 200
+info: System.Net.Http.HttpClient.MonolithClient.LogicalHandler[100]
+      Start processing HTTP request GET http://localhost:8010/api/tasks/?*
+info: System.Net.Http.HttpClient.MonolithClient.ClientHandler[100]
+      Sending HTTP request GET http://localhost:8010/api/tasks/?*
+info: System.Net.Http.HttpClient.MonolithClient.ClientHandler[101]
+      Received HTTP response headers after 24.1528ms - 200
+info: System.Net.Http.HttpClient.MonolithClient.LogicalHandler[101]
+      End processing HTTP request after 24.4999ms - 200
+info: System.Net.Http.HttpClient.MonolithClient.LogicalHandler[100]
+      Start processing HTTP request PATCH http://localhost:8010/api/documents/8/
+info: System.Net.Http.HttpClient.MonolithClient.ClientHandler[100]
+      Sending HTTP request PATCH http://localhost:8010/api/documents/8/
+info: System.Net.Http.HttpClient.MonolithClient.ClientHandler[101]
+      Received HTTP response headers after 184.4717ms - 200
+info: System.Net.Http.HttpClient.MonolithClient.LogicalHandler[101]
+      End processing HTTP request after 184.6028ms - 200
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+[xUnit.net 00:00:01.23]   Finished:    OcrAcl.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,53 @@
+# Instancia local de Paperless-ngx, externa al stack de modernización.
+#
+# Este archivo NO forma parte de `docker-compose.yml`. Paperless conserva su
+# propio dominio, sus datos y su ciclo de vida; aquí solo se describe cómo la
+# instancia existente se publica en el host y se conecta a la red del stack
+# para que el ACL pueda entregar documentos.
+#
+# Uso:
+#   docker compose -f paperless.yml up -d
+#
+# Requiere que la red `paperless-modernization` exista (la crea el stack
+# principal) y que la base de datos y el broker de Paperless estén en marcha.
+name: paperless-external
+
+services:
+  webserver:
+    image: ${PAPERLESS_IMAGE:-ghcr.io/paperless-ngx/paperless-ngx:latest}
+    container_name: paperless-webserver
+    restart: unless-stopped
+    environment:
+      PAPERLESS_REDIS: redis://broker:6379
+      PAPERLESS_DBHOST: db
+      PAPERLESS_SECRET_KEY: ${PAPERLESS_SECRET_KEY:?PAPERLESS_SECRET_KEY is required}
+      PAPERLESS_DBENGINE: postgresql
+    ports:
+      # El 8000 queda libre para Kong. La interfaz de Paperless se publica en
+      # 8002 y el ACL lo alcanza por la red interna con el alias del contenedor.
+      - "127.0.0.1:${PAPERLESS_HOST_PORT:-8002}:8000"
+    volumes:
+      - ${PAPERLESS_DATA_ROOT:-..}/consume:/usr/src/paperless/consume
+      - ${PAPERLESS_DATA_ROOT:-..}/data:/usr/src/paperless/data
+      - ${PAPERLESS_DATA_ROOT:-..}/export:/usr/src/paperless/export
+      - ${PAPERLESS_DATA_ROOT:-..}/media:/usr/src/paperless/media
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "-S", "-L", "--max-time", "2", "http://localhost:8000"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    networks:
+      - legacy
+      - modernization
+
+networks:
+  # Red donde viven la base de datos y el broker de Paperless.
+  legacy:
+    external: true
+    name: capstone_default
+
+  # Red compartida con Kong, OCR y ACL. El nombre del contenedor actúa como
+  # alias DNS `paperless-webserver`.
+  modernization:
+    external: true
+    name: paperless-modernization

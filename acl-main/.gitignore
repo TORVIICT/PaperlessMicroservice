@@ -1,0 +1,9 @@
+.opencode
+CONTRATO_OCR.md
+opencode.json
+AGENTS.md
+PROGRESS.md
+
+# .NET build artifacts
+**/bin/
+**/obj/

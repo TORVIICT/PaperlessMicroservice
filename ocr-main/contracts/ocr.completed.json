@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "messageId": "b6f1c0de-0000-4000-8000-000000000003",
+  "correlationId": "d3a2a3b4-0000-4000-8000-000000000002",
+  "documentId": 1234,
+  "textRef": "ocr/out/2026/10/abc123.txt",
+  "pdfaRef": "ocr/out/2026/10/abc123.pdf",
+  "thumbnailRef": "ocr/out/2026/10/abc123.webp",
+  "pageCount": 3,
+  "durationMs": 8420,
+  "engineVersion": "ocrmypdf 16.x / tesseract 5.x",
+  "completedAt": "2026-10-05T14:30:09Z"
+}

@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.log
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+docker-compose.override.yml
+
+# Generado por scripts/start.ps1 a partir de kong/kong.yml.template
+kong/kong.yml
